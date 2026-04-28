@@ -15,7 +15,7 @@ This script:
 Run:
     python stretch_custom_ner.py | tee outputs/stretch_custom_ner_results.txt
 """
-
+import matplotlib.pyplot as plt
 from collections import Counter
 from pathlib import Path
 import re
