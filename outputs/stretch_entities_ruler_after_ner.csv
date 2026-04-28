@@ -1,0 +1,1212 @@
+text_id,category,entity_text,entity_label,start_char,end_char,system
+1,policy,IPCC,ORG,4,8,ruler_after_ner
+1,policy,Sixth Assessment Report,EVENT,22,45,ruler_after_ner
+1,policy,March 2023,DATE,49,59,ruler_after_ner
+1,policy,1.5 degrees,QUANTITY,107,118,ruler_after_ner
+1,policy,2030,DATE,158,162,ruler_after_ner
+1,policy,Antonio Guterres,PERSON,283,299,ruler_after_ner
+1,policy,COP,ORG,428,431,ruler_after_ner
+2,policy,COP28,CLIMATE_EVENT,3,8,ruler_after_ner
+2,policy,Dubai,GPE,12,17,ruler_after_ner
+2,policy,190,CARDINAL,24,27,ruler_after_ner
+2,policy,The United Arab Emirates,GPE,99,123,ruler_after_ner
+2,policy,two weeks,DATE,159,168,ruler_after_ner
+2,policy,2030,DATE,271,275,ruler_after_ner
+3,policy,The World Bank,ORG,0,14,ruler_after_ner
+3,policy,$12.5 billion,MONEY,27,40,ruler_after_ner
+3,policy,June 2024,DATE,68,77,ruler_after_ner
+3,policy,Sub-Saharan Africa,ORG,111,129,ruler_after_ner
+3,policy,South Asia,LOC,134,144,ruler_after_ner
+3,policy,World Bank,ORG,276,286,ruler_after_ner
+3,policy,Ajay Banga,PERSON,297,307,ruler_after_ner
+4,policy,Jordan,GPE,0,6,ruler_after_ner
+4,policy,National Climate Change Policy,ORG,9,39,ruler_after_ner
+4,policy,2022,DATE,52,56,ruler_after_ner
+4,policy,31%,PERCENT,118,121,ruler_after_ner
+4,policy,2030,DATE,125,129,ruler_after_ner
+4,policy,The Ministry of Environment,ORG,266,293,ruler_after_ner
+4,policy,UNDP,ORG,339,343,ruler_after_ner
+4,policy,the European Union,ORG,348,366,ruler_after_ner
+5,policy,UNFCCC,ORG,0,6,ruler_after_ner
+5,policy,Simon Stiell,PERSON,27,39,ruler_after_ner
+5,policy,the Bonn Climate Change Conference,ORG,63,97,ruler_after_ner
+5,policy,June 2024,DATE,101,110,ruler_after_ner
+5,policy,nationally determined contributions,POLICY,137,172,ruler_after_ner
+5,policy,the Paris Agreement,EVENT,187,206,ruler_after_ner
+5,policy,NDCs,POLICY,269,273,ruler_after_ner
+5,policy,February 2025,DATE,281,294,ruler_after_ner
+6,policy,The European Union's,ORG,0,20,ruler_after_ner
+6,policy,Carbon Border Adjustment Mechanism,ORG,21,55,ruler_after_ner
+6,policy,October 2023,DATE,90,102,ruler_after_ner
+6,policy,EU,ORG,275,277,ruler_after_ner
+6,policy,January 2026,DATE,409,421,ruler_after_ner
+7,policy,September 2023,DATE,3,17,ruler_after_ner
+7,policy,the United Nations General Assembly,ORG,19,54,ruler_after_ner
+7,policy,the Climate Ambition Summit,ORG,62,89,ruler_after_ner
+7,policy,New York,GPE,93,101,ruler_after_ner
+7,policy,the Paris Agreement,EVENT,358,377,ruler_after_ner
+8,policy,FAO,ORG,0,3,ruler_after_ner
+8,policy,State of Food and Agriculture 2023,ORG,18,52,ruler_after_ner
+8,policy,735 million,CARDINAL,173,184,ruler_after_ner
+8,policy,2022,DATE,216,220,ruler_after_ner
+8,policy,FAO,ORG,296,299,ruler_after_ner
+8,policy,Qu Dongyu,PERSON,317,326,ruler_after_ner
+8,policy,$4 billion,MONEY,338,348,ruler_after_ner
+8,policy,annual,DATE,352,358,ruler_after_ner
+9,policy,The Green Climate Fund,ORG,0,22,ruler_after_ner
+9,policy,$1.2 billion,MONEY,32,44,ruler_after_ner
+9,policy,October 2023,DATE,79,91,ruler_after_ner
+9,policy,Songdo,GPE,109,115,ruler_after_ner
+9,policy,South Korea,GPE,117,128,ruler_after_ner
+9,policy,$150 million,MONEY,158,170,ruler_after_ner
+9,policy,Bangladesh,GPE,201,211,ruler_after_ner
+9,policy,$90 million,MONEY,215,226,ruler_after_ner
+9,policy,the Congo Basin,LOC,255,270,ruler_after_ner
+9,policy,$45 million,MONEY,278,289,ruler_after_ner
+9,policy,Jordan,GPE,316,322,ruler_after_ner
+9,policy,$12 billion,MONEY,356,367,ruler_after_ner
+10,policy,China,GPE,0,5,ruler_after_ner
+10,policy,Change Xie Zhenhua,PERSON,34,52,ruler_after_ner
+10,policy,US,GPE,62,64,ruler_after_ner
+10,policy,John Kerry,PERSON,79,89,ruler_after_ner
+10,policy,Sunnylands,GPE,93,103,ruler_after_ner
+10,policy,California,GPE,105,115,ruler_after_ner
+10,policy,November 2023,DATE,119,132,ruler_after_ner
+10,policy,the Paris Agreement,EVENT,221,240,ruler_after_ner
+10,policy,COP28,CLIMATE_EVENT,395,400,ruler_after_ner
+11,science,NASA,ORG,15,19,ruler_after_ner
+11,science,Goddard Institute for Space Studies,ORG,22,57,ruler_after_ner
+11,science,2023,DATE,73,77,ruler_after_ner
+11,science,the warmest year,DATE,82,98,ruler_after_ner
+11,science,1.48 degrees Celsius,QUANTITY,143,163,ruler_after_ner
+11,science,1850-1900,DATE,174,183,ruler_after_ner
+11,science,El Nino,GPE,198,205,ruler_after_ner
+11,science,mid-2023,DATE,232,240,ruler_after_ner
+11,science,Southern Europe,LOC,311,326,ruler_after_ner
+11,science,North Africa,GPE,328,340,ruler_after_ner
+11,science,the Middle East,LOC,346,361,ruler_after_ner
+11,science,July 2023,DATE,363,372,ruler_after_ner
+11,science,the hottest month,DATE,377,394,ruler_after_ner
+12,science,Science,GPE,21,28,ruler_after_ner
+12,science,January 2024,DATE,32,44,ruler_after_ner
+12,science,the Greenland Ice Sheet,ORG,56,79,ruler_after_ner
+12,science,approximately 270 billion tonnes,QUANTITY,85,117,ruler_after_ner
+12,science,between 2006 and 2022,DATE,134,155,ruler_after_ner
+12,science,GRACE,ORG,213,218,ruler_after_ner
+12,science,GRACE-FO,ORG,223,231,ruler_after_ner
+12,science,approximately 0.7 millimeters,QUANTITY,286,315,ruler_after_ner
+12,science,2010,DATE,390,394,ruler_after_ner
+13,science,Arctic,LOC,4,10,ruler_after_ner
+13,science,sixth,ORDINAL,38,43,ruler_after_ner
+13,science,September 2023,DATE,70,84,ruler_after_ner
+13,science,the National Snow and Ice Data Center,ORG,99,136,ruler_after_ner
+13,science,Boulder,GPE,140,147,ruler_after_ner
+13,science,Colorado,GPE,149,157,ruler_after_ner
+13,science,15,CARDINAL,184,186,ruler_after_ner
+13,science,Arctic sea,LOC,194,204,ruler_after_ner
+13,science,the last 15 years,DATE,238,255,ruler_after_ner
+14,science,the Great Barrier Reef Foundation,FAC,21,54,ruler_after_ner
+14,science,fourth,ORDINAL,70,76,ruler_after_ner
+14,science,seven years,DATE,107,118,ruler_after_ner
+14,science,March 2024,DATE,126,136,ruler_after_ner
+14,science,2 degrees,QUANTITY,166,175,ruler_after_ner
+14,science,14 consecutive days,DATE,215,234,ruler_after_ner
+14,science,75%,PERCENT,259,262,ruler_after_ner
+14,science,"over 1,500",CARDINAL,320,330,ruler_after_ner
+14,science,400,CARDINAL,348,351,ruler_after_ner
+15,science,the Max Planck Institute for Meteorology,ORG,12,52,ruler_after_ner
+15,science,Nature Geoscience,WORK_OF_ART,75,92,ruler_after_ner
+15,science,the Atlantic Meridional Overturning Circulation,ORG,106,153,ruler_after_ner
+15,science,approximately 15%,PERCENT,170,187,ruler_after_ner
+15,science,1950,DATE,194,198,ruler_after_ner
+15,science,AMOC,ORG,204,208,ruler_after_ner
+15,science,the North Atlantic,LOC,251,269,ruler_after_ner
+15,science,Northern Europe,LOC,326,341,ruler_after_ner
+15,science,US,GPE,412,414,ruler_after_ner
+15,science,East Coast,LOC,415,425,ruler_after_ner
+16,science,Atmospheric CO2,PERSON,0,15,ruler_after_ner
+16,science,the Mauna Loa Observatory,FAC,34,59,ruler_after_ner
+16,science,Hawaii,GPE,63,69,ruler_after_ner
+16,science,424.0,CARDINAL,78,83,ruler_after_ner
+16,science,May 2024,DATE,105,113,ruler_after_ner
+16,science,NOAA,ORG,128,132,ruler_after_ner
+16,science,2.8,CARDINAL,152,155,ruler_after_ner
+16,science,the previous year,DATE,174,191,ruler_after_ner
+16,science,1958,DATE,260,264,ruler_after_ner
+16,science,approximately 50%,PERCENT,295,312,ruler_after_ner
+16,science,280,CARDINAL,353,356,ruler_after_ner
+17,science,the University of Leeds,ORG,17,40,ruler_after_ner
+17,science,227 billion tonnes,QUANTITY,99,117,ruler_after_ner
+17,science,2000-2009,DATE,134,143,ruler_after_ner
+17,science,298 billion tonnes,QUANTITY,154,172,ruler_after_ner
+17,science,2010-2019,DATE,185,194,ruler_after_ner
+17,science,Geophysical Research Letters,ORG,220,248,ruler_after_ner
+17,science,"217,175",CARDINAL,259,266,ruler_after_ner
+17,science,Himalayan,NORP,301,310,ruler_after_ner
+17,science,the early 2000s,DATE,366,381,ruler_after_ner
+17,science,1.9 billion,CARDINAL,414,425,ruler_after_ner
+18,science,The World Meteorological Organization,ORG,0,37,ruler_after_ner
+18,science,4.5 millimeters,QUANTITY,82,97,ruler_after_ner
+18,science,2023,DATE,101,105,ruler_after_ner
+18,science,annual,DATE,119,125,ruler_after_ner
+18,science,1993,DATE,168,172,ruler_after_ner
+18,science,approximately 40%,PERCENT,221,238,ruler_after_ner
+18,science,WMO,ORG,317,320,ruler_after_ner
+18,science,Celeste Saulo,PERSON,339,352,ruler_after_ner
+18,science,decades,DATE,417,424,ruler_after_ner
+19,science,the National Academy of Sciences,ORG,30,62,ruler_after_ner
+19,science,Siberia,LOC,93,100,ruler_after_ner
+19,science,Alaska,GPE,105,111,ruler_after_ner
+19,science,approximately 600 million tonnes,QUANTITY,121,153,ruler_after_ner
+19,science,CO2,PRODUCT,157,160,ruler_after_ner
+19,science,2022,DATE,175,179,ruler_after_ner
+19,science,80,CARDINAL,252,254,ruler_after_ner
+19,science,20-year,DATE,300,307,ruler_after_ner
+19,science,"roughly 1,500 billion tonnes",QUANTITY,374,402,ruler_after_ner
+20,science,the Potsdam Institute for Climate Impact Research,ORG,14,63,ruler_after_ner
+20,science,1.5 degree,QUANTITY,127,137,ruler_after_ner
+20,science,five,CARDINAL,175,179,ruler_after_ner
+20,science,the Greenland Ice Sheet,ORG,213,236,ruler_after_ner
+20,science,the West Antarctic Ice Sheet,LOC,238,266,ruler_after_ner
+20,science,the Atlantic Meridional Overturning Circulation,ORG,317,364,ruler_after_ner
+20,science,Science,GPE,393,400,ruler_after_ner
+20,science,September 2023,DATE,404,418,ruler_after_ner
+21,science,The European Space Agency's,ORG,0,27,ruler_after_ner
+21,science,Copernicus Climate Change Service,ORG,28,61,ruler_after_ner
+21,science,September 2023,DATE,76,90,ruler_after_ner
+21,science,1.75 degrees,QUANTITY,95,107,ruler_after_ner
+21,science,0.5 degrees,QUANTITY,190,201,ruler_after_ner
+21,science,El Nino,GPE,246,253,ruler_after_ner
+21,science,Saharan,GPE,263,270,ruler_after_ner
+21,science,Antarctic sea,LOC,301,314,ruler_after_ner
+21,science,Copernicus,ORG,327,337,ruler_after_ner
+21,science,Carlo Buontempo,PERSON,347,362,ruler_after_ner
+22,science,30%,PERCENT,37,40,ruler_after_ner
+22,science,1800,DATE,47,51,ruler_after_ner
+22,science,CO2,PRODUCT,85,88,ruler_after_ner
+22,science,Annual Review of Marine Science,ORG,125,156,ruler_after_ner
+22,science,8.1,CARDINAL,182,185,ruler_after_ner
+22,science,8.2,CARDINAL,250,253,ruler_after_ner
+22,science,the Southern Ocean,LOC,302,320,ruler_after_ner
+22,science,Arctic,LOC,325,331,ruler_after_ner
+23,impact,The Dead Sea,LOC,0,12,ruler_after_ner
+23,impact,approximately one-third,CARDINAL,22,45,ruler_after_ner
+23,impact,1960,DATE,72,76,ruler_after_ner
+23,impact,more than 1 meter,QUANTITY,108,125,ruler_after_ner
+23,impact,the Jordan River,LOC,172,188,ruler_after_ner
+23,impact,"7,000",CARDINAL,287,292,ruler_after_ner
+23,impact,Jordan,GPE,390,396,ruler_after_ner
+23,impact,the West Bank,GPE,401,414,ruler_after_ner
+24,impact,Mediterranean,LOC,0,13,ruler_after_ner
+24,impact,the summer of 2023,DATE,27,45,ruler_after_ner
+24,impact,"400,000",CARDINAL,58,65,ruler_after_ner
+24,impact,Greece,GPE,82,88,ruler_after_ner
+24,impact,Turkey,GPE,90,96,ruler_after_ner
+24,impact,Algeria,GPE,98,105,ruler_after_ner
+24,impact,Tunisia,GPE,111,118,ruler_after_ner
+24,impact,48 degrees,QUANTITY,143,153,ruler_after_ner
+24,impact,Sicily,GPE,165,171,ruler_after_ner
+24,impact,European,NORP,182,190,ruler_after_ner
+24,impact,"20,000",CARDINAL,224,230,ruler_after_ner
+24,impact,an estimated $3.5 billion,MONEY,249,274,ruler_after_ner
+24,impact,Mediterranean,LOC,336,349,ruler_after_ner
+24,impact,40 days,DATE,368,375,ruler_after_ner
+24,impact,the 1980s,DATE,382,391,ruler_after_ner
+25,impact,Pacific Island,LOC,0,14,ruler_after_ner
+25,impact,Tuvalu,GPE,33,39,ruler_after_ner
+25,impact,Kiribati,GPE,41,49,ruler_after_ner
+25,impact,up to 50%,PERCENT,140,149,ruler_after_ner
+25,impact,the Marshall Islands',GPE,153,174,ruler_after_ner
+25,impact,2100,CARDINAL,207,211,ruler_after_ner
+25,impact,just 2 meters,QUANTITY,243,256,ruler_after_ner
+25,impact,2023,DATE,277,281,ruler_after_ner
+25,impact,Tuvalu,ORG,283,289,ruler_after_ner
+25,impact,Australia,GPE,315,324,ruler_after_ner
+25,impact,up to 280,CARDINAL,356,365,ruler_after_ner
+26,impact,Flash,PERSON,0,5,ruler_after_ner
+26,impact,Derna,GPE,16,21,ruler_after_ner
+26,impact,Libya,GPE,23,28,ruler_after_ner
+26,impact,September 2023,DATE,32,46,ruler_after_ner
+26,impact,"over 11,000",CARDINAL,54,65,ruler_after_ner
+26,impact,"40,000",CARDINAL,87,93,ruler_after_ner
+26,impact,Storm Daniel,ORG,99,111,ruler_after_ner
+26,impact,two,CARDINAL,119,122,ruler_after_ner
+26,impact,414 millimeters,QUANTITY,171,186,ruler_after_ner
+26,impact,24 hours,TIME,190,198,ruler_after_ner
+26,impact,annual,DATE,218,224,ruler_after_ner
+26,impact,270,CARDINAL,236,239,ruler_after_ner
+26,impact,50,CARDINAL,306,308,ruler_after_ner
+26,impact,50%,PERCENT,331,334,ruler_after_ner
+27,impact,Jordan,GPE,0,6,ruler_after_ner
+27,impact,approximately 80 cubic meters,QUANTITY,115,144,ruler_after_ner
+27,impact,500 cubic meters,QUANTITY,201,217,ruler_after_ner
+27,impact,the Jordan Valley,LOC,359,376,ruler_after_ner
+28,impact,25%,PERCENT,51,54,ruler_after_ner
+28,impact,2000,DATE,61,65,ruler_after_ner
+28,impact,the African Union's Climate Research Centre,ORG,91,134,ruler_after_ner
+28,impact,Mediterranean,LOC,188,201,ruler_after_ner
+28,impact,Southern Europe,LOC,207,222,ruler_after_ner
+28,impact,up to 30%,PERCENT,297,306,ruler_after_ner
+28,impact,March 2024,DATE,311,321,ruler_after_ner
+28,impact,Scandinavia,LOC,377,388,ruler_after_ner
+29,impact,Amman,GPE,0,5,ruler_after_ner
+29,impact,2023,DATE,50,54,ruler_after_ner
+29,impact,40 degrees,QUANTITY,84,94,ruler_after_ner
+29,impact,18 separate days,DATE,106,122,ruler_after_ner
+29,impact,August,DATE,140,146,ruler_after_ner
+29,impact,The Jordanian Department of Meteorology,ORG,148,187,ruler_after_ner
+29,impact,summer,DATE,210,216,ruler_after_ner
+29,impact,2.1 degrees,QUANTITY,248,259,ruler_after_ner
+29,impact,1970,DATE,274,278,ruler_after_ner
+29,impact,35%,PERCENT,336,339,ruler_after_ner
+29,impact,2018-2022,DATE,356,365,ruler_after_ner
+30,impact,The IPCC Working Group II,ORG,0,25,ruler_after_ner
+30,impact,21%,PERCENT,126,129,ruler_after_ner
+30,impact,1961,DATE,136,140,ruler_after_ner
+30,impact,South Asia,LOC,158,168,ruler_after_ner
+30,impact,Sub-Saharan Africa,ORG,189,207,ruler_after_ner
+30,impact,10-25%,PERCENT,236,242,ruler_after_ner
+30,impact,2 degrees,QUANTITY,249,258,ruler_after_ner
+30,impact,3.3 to 3.6 billion,QUANTITY,297,315,ruler_after_ner
+31,impact,Hurricane Otis,EVENT,0,14,ruler_after_ner
+31,impact,Acapulco,GPE,34,42,ruler_after_ner
+31,impact,Mexico,GPE,44,50,ruler_after_ner
+31,impact,"October 25, 2023",DATE,54,70,ruler_after_ner
+31,impact,270 kilometers per hour,QUANTITY,117,140,ruler_after_ner
+31,impact,Category 5,LAW,189,199,ruler_after_ner
+31,impact,just 12 hours,TIME,203,216,ruler_after_ner
+31,impact,the Eastern Pacific,LOC,267,286,ruler_after_ner
+31,impact,over $16 billion,MONEY,308,324,ruler_after_ner
+31,impact,at least 52,CARDINAL,347,358,ruler_after_ner
+32,impact,Sahel,PERSON,4,9,ruler_after_ner
+32,impact,Africa,LOC,20,26,ruler_after_ner
+32,impact,a decade,DATE,64,72,ruler_after_ner
+32,impact,2023,DATE,80,84,ruler_after_ner
+32,impact,45 million,CARDINAL,91,101,ruler_after_ner
+32,impact,Burkina Faso,GPE,233,245,ruler_after_ner
+32,impact,Mali,PERSON,247,251,ruler_after_ner
+32,impact,Niger,PERSON,253,258,ruler_after_ner
+32,impact,Chad,GPE,264,268,ruler_after_ner
+32,impact,The World Food Programme,ORG,270,294,ruler_after_ner
+32,impact,12 million,CARDINAL,324,334,ruler_after_ner
+32,impact,millions,CARDINAL,383,391,ruler_after_ner
+33,impact,Himalayas,FAC,36,45,ruler_after_ner
+33,impact,10,CARDINAL,64,66,ruler_after_ner
+33,impact,1990,DATE,79,83,ruler_after_ner
+33,impact,October 2023,DATE,88,100,ruler_after_ner
+33,impact,GLOF,ORG,104,108,ruler_after_ner
+33,impact,Sikkim,GPE,112,118,ruler_after_ner
+33,impact,India,GPE,120,125,ruler_after_ner
+33,impact,Teesta III,PERSON,140,150,ruler_after_ner
+33,impact,over 40,CARDINAL,174,181,ruler_after_ner
+33,impact,23 billion dollar,MONEY,229,246,ruler_after_ner
+33,impact,less than a year,DATE,276,292,ruler_after_ner
+33,impact,"over 5,000",CARDINAL,319,329,ruler_after_ner
+33,impact,Hindu,NORP,351,356,ruler_after_ner
+33,impact,Kush Himalaya,PERSON,357,370,ruler_after_ner
+34,impact,approximately 500 million,CARDINAL,54,79,ruler_after_ner
+34,impact,70-90%,PERCENT,125,131,ruler_after_ner
+34,impact,1.5 degrees,QUANTITY,138,149,ruler_after_ner
+34,impact,2 degrees,QUANTITY,188,197,ruler_after_ner
+34,impact,$375 billion,MONEY,312,324,ruler_after_ner
+34,impact,Caribbean,LOC,348,357,ruler_after_ner
+34,impact,50%,PERCENT,375,378,ruler_after_ner
+34,impact,1970,DATE,404,408,ruler_after_ner
+35,adaptation,Jordan,GPE,0,6,ruler_after_ner
+35,adaptation,Disi Water Conveyance Project,ORG,9,38,ruler_after_ner
+35,adaptation,2013,DATE,53,57,ruler_after_ner
+35,adaptation,$990 million,MONEY,71,83,ruler_after_ner
+35,adaptation,100 million cubic meters,QUANTITY,96,120,ruler_after_ner
+35,adaptation,annually,DATE,130,138,ruler_after_ner
+35,adaptation,Disi,NORP,148,152,ruler_after_ner
+35,adaptation,Amman,GPE,164,169,ruler_after_ner
+35,adaptation,Aqaba,GPE,174,179,ruler_after_ner
+35,adaptation,50 years,DATE,296,304,ruler_after_ner
+36,adaptation,The Kingdom of Jordan,GPE,0,21,ruler_after_ner
+36,adaptation,200-megawatt,QUANTITY,36,48,ruler_after_ner
+36,adaptation,Mafraq,GPE,70,76,ruler_after_ner
+36,adaptation,January 2024,DATE,80,92,ruler_after_ner
+36,adaptation,"2,400 megawatts",QUANTITY,152,167,ruler_after_ner
+36,adaptation,Jordan,PERSON,169,175,ruler_after_ner
+36,adaptation,50%,PERCENT,193,196,ruler_after_ner
+36,adaptation,2030,DATE,242,246,ruler_after_ner
+36,adaptation,29%,PERCENT,256,259,ruler_after_ner
+36,adaptation,2023,DATE,263,267,ruler_after_ner
+36,adaptation,Mafraq,GPE,273,279,ruler_after_ner
+36,adaptation,the European Bank for Reconstruction and Development,ORG,299,351,ruler_after_ner
+36,adaptation,"approximately 110,000",CARDINAL,364,385,ruler_after_ner
+37,adaptation,Singapore,GPE,0,9,ruler_after_ner
+37,adaptation,$72 billion,MONEY,52,63,ruler_after_ner
+37,adaptation,100 years,DATE,80,89,ruler_after_ner
+37,adaptation,up to 4 meters,QUANTITY,173,187,ruler_after_ner
+37,adaptation,The Tuas Nexus,ORG,261,275,ruler_after_ner
+37,adaptation,2025,DATE,334,338,ruler_after_ner
+38,adaptation,UNEP,ORG,0,4,ruler_after_ner
+38,adaptation,Adaptation Gap Report,ORG,7,28,ruler_after_ner
+38,adaptation,2023,DATE,29,33,ruler_after_ner
+38,adaptation,10 to 18,CARDINAL,98,106,ruler_after_ner
+38,adaptation,annual,DATE,177,183,ruler_after_ner
+38,adaptation,215,MONEY,205,208,ruler_after_ner
+38,adaptation,$387 billion,MONEY,212,224,ruler_after_ner
+38,adaptation,Only $21 billion,MONEY,248,264,ruler_after_ner
+38,adaptation,2021,DATE,321,325,ruler_after_ner
+39,adaptation,Netherlands,GPE,4,15,ruler_after_ner
+39,adaptation,River,LOC,30,35,ruler_after_ner
+39,adaptation,2019,DATE,58,62,ruler_after_ner
+39,adaptation,2.3 billion,CARDINAL,76,87,ruler_after_ner
+39,adaptation,34,CARDINAL,106,108,ruler_after_ner
+39,adaptation,"the Rhine, Meuse",ORG,125,141,ruler_after_ner
+39,adaptation,Europe,LOC,388,394,ruler_after_ner
+40,adaptation,Kenya,GPE,0,5,ruler_after_ner
+40,adaptation,Great Green Wall,FAC,8,24,ruler_after_ner
+40,adaptation,over 15 million,CARDINAL,48,63,ruler_after_ner
+40,adaptation,400-kilometer,QUANTITY,78,91,ruler_after_ner
+40,adaptation,2020,DATE,135,139,ruler_after_ner
+40,adaptation,"12,000",CARDINAL,161,167,ruler_after_ner
+40,adaptation,"5,000",CARDINAL,203,208,ruler_after_ner
+40,adaptation,FAO,ORG,236,239,ruler_after_ner
+40,adaptation,the World Bank,ORG,294,308,ruler_after_ner
+41,adaptation,Bangladesh,GPE,0,10,ruler_after_ner
+41,adaptation,1972,DATE,60,64,ruler_after_ner
+41,adaptation,Red Cross,ORG,83,92,ruler_after_ner
+41,adaptation,over 99%,PERCENT,135,143,ruler_after_ner
+41,adaptation,"76,000",CARDINAL,202,208,ruler_after_ner
+41,adaptation,"4,000",CARDINAL,229,234,ruler_after_ner
+41,adaptation,35 million,CARDINAL,295,305,ruler_after_ner
+41,adaptation,12,MONEY,330,332,ruler_after_ner
+41,adaptation,annual,DATE,344,350,ruler_after_ner
+41,adaptation,one,CARDINAL,370,373,ruler_after_ner
+42,adaptation,Abu Dhabi's,ORG,0,11,ruler_after_ner
+42,adaptation,Masdar City,GPE,12,23,ruler_after_ner
+42,adaptation,15 to,CARDINAL,142,147,ruler_after_ner
+42,adaptation,20 degrees,QUANTITY,148,158,ruler_after_ner
+42,adaptation,10-megawatt,QUANTITY,220,231,ruler_after_ner
+42,adaptation,2024,DATE,312,316,ruler_after_ner
+42,adaptation,Masdar City,GPE,318,329,ruler_after_ner
+42,adaptation,"6,000",CARDINAL,337,342,ruler_after_ner
+42,adaptation,600,CARDINAL,357,360,ruler_after_ner
+42,adaptation,the International Renewable Energy Agency,ORG,403,444,ruler_after_ner
+43,adaptation,Amman,GPE,12,17,ruler_after_ner
+43,adaptation,Climate Action Plan,LAW,31,50,ruler_after_ner
+43,adaptation,2021,DATE,54,58,ruler_after_ner
+43,adaptation,40%,PERCENT,72,75,ruler_after_ner
+43,adaptation,2030,DATE,127,131,ruler_after_ner
+43,adaptation,"300,000",CARDINAL,192,199,ruler_after_ner
+43,adaptation,daily,DATE,200,205,ruler_after_ner
+43,adaptation,"25,000",CARDINAL,218,224,ruler_after_ner
+44,adaptation,Israel,GPE,0,6,ruler_after_ner
+44,adaptation,2025,DATE,65,69,ruler_after_ner
+44,adaptation,200 million cubic meters,QUANTITY,84,108,ruler_after_ner
+44,adaptation,annually,DATE,127,135,ruler_after_ner
+44,adaptation,0.40,MONEY,150,154,ruler_after_ner
+44,adaptation,Israel,GPE,254,260,ruler_after_ner
+44,adaptation,80%,PERCENT,281,284,ruler_after_ner
+45,adaptation,Costa Rica,GPE,0,10,ruler_after_ner
+45,adaptation,99.5%,PERCENT,20,25,ruler_after_ner
+45,adaptation,2023,DATE,62,66,ruler_after_ner
+45,adaptation,98%,PERCENT,160,163,ruler_after_ner
+45,adaptation,nine consecutive years,DATE,189,211,ruler_after_ner
+45,adaptation,Costa Rica's,GPE,213,225,ruler_after_ner
+45,adaptation,National Decarbonization Plan,ORG,226,255,ruler_after_ner
+45,adaptation,2050,DATE,286,290,ruler_after_ner
+45,adaptation,"60,000",CARDINAL,358,364,ruler_after_ner
+45,adaptation,2025,DATE,417,421,ruler_after_ner
+46,adaptation,The African Development Bank's,ORG,0,30,ruler_after_ner
+46,adaptation,10,CARDINAL,74,76,ruler_after_ner
+46,adaptation,11,CARDINAL,112,114,ruler_after_ner
+46,adaptation,Sahel,PRODUCT,115,120,ruler_after_ner
+46,adaptation,2030,DATE,134,138,ruler_after_ner
+46,adaptation,250 million,CARDINAL,165,176,ruler_after_ner
+46,adaptation,2024,DATE,191,195,ruler_after_ner
+46,adaptation,3.2,CARDINAL,197,200,ruler_after_ner
+46,adaptation,rural health clinics,ORG,283,303,ruler_after_ner
+46,adaptation,"15,000",CARDINAL,383,389,ruler_after_ner
+47,policy,India,GPE,0,5,ruler_after_ner
+47,policy,Nationally Determined Contribution,ORG,16,50,ruler_after_ner
+47,policy,50%,PERCENT,70,73,ruler_after_ner
+47,policy,2030,DATE,151,155,ruler_after_ner
+47,policy,45%,PERCENT,198,201,ruler_after_ner
+47,policy,2005,DATE,207,211,ruler_after_ner
+47,policy,Narendra Modi,PERSON,235,248,ruler_after_ner
+47,policy,COP26,CLIMATE_EVENT,274,279,ruler_after_ner
+47,policy,Glasgow,GPE,283,290,ruler_after_ner
+47,policy,November 2021,DATE,294,307,ruler_after_ner
+47,policy,2070,DATE,340,344,ruler_after_ner
+48,policy,Loss and Damage Fund,CLIMATE_FUND,4,24,ruler_after_ner
+48,policy,COP27,GPE,41,46,ruler_after_ner
+48,policy,Sharm el-Sheikh,GPE,50,65,ruler_after_ner
+48,policy,COP28,CLIMATE_EVENT,89,94,ruler_after_ner
+48,policy,$792 million,MONEY,130,142,ruler_after_ner
+48,policy,Germany,GPE,144,151,ruler_after_ner
+48,policy,UAE,ORG,160,163,ruler_after_ner
+48,policy,$100 million,MONEY,177,189,ruler_after_ner
+48,policy,United Kingdom,GPE,201,215,ruler_after_ner
+48,policy,$75 million,MONEY,226,237,ruler_after_ner
+48,policy,the estimated $400 billion,MONEY,299,325,ruler_after_ner
+48,policy,annual,DATE,329,335,ruler_after_ner
+49,policy,Brazil,GPE,0,6,ruler_after_ner
+49,policy,Ministry of Environment and Climate Change,ORG,9,51,ruler_after_ner
+49,policy,August 2023,DATE,65,76,ruler_after_ner
+49,policy,Amazon,ORG,82,88,ruler_after_ner
+49,policy,48%,PERCENT,119,122,ruler_after_ner
+49,policy,the first seven months,DATE,126,148,ruler_after_ner
+49,policy,Lula da Silva,PERSON,162,175,ruler_after_ner
+49,policy,2022,DATE,224,228,ruler_after_ner
+49,policy,IBAMA,ORG,280,285,ruler_after_ner
+49,policy,the Amazon Fund,ORG,310,325,ruler_after_ner
+49,policy,$500 million,MONEY,342,354,ruler_after_ner
+49,policy,Norway,GPE,360,366,ruler_after_ner
+49,policy,Germany,GPE,371,378,ruler_after_ner
+50,policy,The International Energy Agency's,ORG,0,33,ruler_after_ner
+50,policy,Net Zero,ORG,34,42,ruler_after_ner
+50,policy,2050,DATE,46,50,ruler_after_ner
+50,policy,2021,DATE,169,173,ruler_after_ner
+50,policy,annual,DATE,197,203,ruler_after_ner
+50,policy,$4 trillion,MONEY,237,248,ruler_after_ner
+50,policy,2030,DATE,252,256,ruler_after_ner
+50,policy,$1.3 trillion,MONEY,266,279,ruler_after_ner
+50,policy,2022,DATE,283,287,ruler_after_ner
+50,policy,IEA,ORG,289,292,ruler_after_ner
+50,policy,Fatih Birol,PERSON,312,323,ruler_after_ner
+51,policy,Saudi Arabia's,GPE,0,14,ruler_after_ner
+51,policy,Vision 2030,ORG,15,26,ruler_after_ner
+51,policy,50%,PERCENT,59,62,ruler_after_ner
+51,policy,$500 billion,MONEY,118,130,ruler_after_ner
+51,policy,"2,600-megawatt",QUANTITY,161,175,ruler_after_ner
+51,policy,Sudair,ORG,176,182,ruler_after_ner
+51,policy,278 million tonnes,QUANTITY,248,266,ruler_after_ner
+51,policy,annually,DATE,267,275,ruler_after_ner
+51,policy,2030,DATE,279,283,ruler_after_ner
+51,policy,Saudi,NORP,296,301,ruler_after_ner
+51,policy,Green Initiative,GPE,302,318,ruler_after_ner
+51,policy,Middle East Green Initiative,LOC,335,363,ruler_after_ner
+51,policy,50 billion,CARDINAL,385,395,ruler_after_ner
+52,policy,The Kigali Amendment,LAW,0,20,ruler_after_ner
+52,policy,the Montreal Protocol,LAW,24,45,ruler_after_ner
+52,policy,January 2019,DATE,75,87,ruler_after_ner
+52,policy,80%,PERCENT,101,104,ruler_after_ner
+52,policy,2047,DATE,166,170,ruler_after_ner
+52,policy,thousands,CARDINAL,229,238,ruler_after_ner
+52,policy,UNEP,ORG,266,270,ruler_after_ner
+52,policy,the Kigali Amendment,LAW,309,329,ruler_after_ner
+52,policy,0.5 degrees,QUANTITY,347,358,ruler_after_ner
+52,policy,2100,DATE,381,385,ruler_after_ner
+53,policy,Jordanian,NORP,4,13,ruler_after_ner
+53,policy,the Renewable Energy and Energy Efficiency Law,ORG,32,78,ruler_after_ner
+53,policy,December 2023,DATE,82,95,ruler_after_ner
+53,policy,$50 million,MONEY,278,289,ruler_after_ner
+53,policy,the Central Bank of Jordan,ORG,336,362,ruler_after_ner
+54,science,Nature Communications,ORG,21,42,ruler_after_ner
+54,science,February 2024,DATE,46,59,ruler_after_ner
+54,science,Arctic,LOC,109,115,ruler_after_ner
+54,science,first,ORDINAL,137,142,ruler_after_ner
+54,science,September,DATE,152,161,ruler_after_ner
+54,science,a decade earlier,DATE,185,201,ruler_after_ner
+54,science,40 years,DATE,273,281,ruler_after_ner
+54,science,2050,DATE,413,417,ruler_after_ner
+55,science,CO2,PRODUCT,47,50,ruler_after_ner
+55,science,36.8 billion tonnes,QUANTITY,100,119,ruler_after_ner
+55,science,2023,DATE,123,127,ruler_after_ner
+55,science,1.1%,PERCENT,131,135,ruler_after_ner
+55,science,2022,DATE,150,154,ruler_after_ner
+55,science,1.0%,PERCENT,179,183,ruler_after_ner
+55,science,15.5 billion tonnes,QUANTITY,187,206,ruler_after_ner
+55,science,1.5%,PERCENT,235,239,ruler_after_ner
+55,science,0.5%,PERCENT,275,279,ruler_after_ner
+55,science,India,GPE,281,286,ruler_after_ner
+55,science,China,GPE,291,296,ruler_after_ner
+55,science,the European Union,ORG,371,389,ruler_after_ner
+55,science,7.4%,PERCENT,402,406,ruler_after_ner
+56,science,"1,923",CARDINAL,49,54,ruler_after_ner
+56,science,2023,DATE,76,80,ruler_after_ner
+56,science,more than 2.5,CARDINAL,82,95,ruler_after_ner
+56,science,722,CARDINAL,130,133,ruler_after_ner
+56,science,March 2024,DATE,194,204,ruler_after_ner
+56,science,80,CARDINAL,349,351,ruler_after_ner
+56,science,CO2,PRODUCT,366,369,ruler_after_ner
+56,science,20-year,DATE,377,384,ruler_after_ner
+57,science,The British Antarctic Survey,ORG,0,28,ruler_after_ner
+57,science,February 2024,DATE,41,54,ruler_after_ner
+57,science,Antarctic sea,LOC,60,73,ruler_after_ner
+57,science,9,CARDINAL,128,129,ruler_after_ner
+57,science,the preceding 12 months,DATE,133,156,ruler_after_ner
+57,science,2.6 million square kilometers,QUANTITY,177,206,ruler_after_ner
+57,science,1981-2010,DATE,224,233,ruler_after_ner
+57,science,Antarctic ice,LOC,314,327,ruler_after_ner
+58,science,ETH Zurich,ORG,10,20,ruler_after_ner
+58,science,Nature,WORK_OF_ART,42,48,ruler_after_ner
+58,science,2023 summer,DATE,62,73,ruler_after_ner
+58,science,the Northern Hemisphere,LOC,87,110,ruler_after_ner
+58,science,The World Weather Attribution,ORG,185,214,ruler_after_ner
+58,science,July 2023,DATE,241,250,ruler_after_ner
+58,science,Southern Europe,LOC,263,278,ruler_after_ner
+58,science,North Africa,GPE,280,292,ruler_after_ner
+58,science,the Middle East,LOC,298,313,ruler_after_ner
+58,science,approximately 2.5 degrees,QUANTITY,323,348,ruler_after_ner
+58,science,Phoenix,GPE,383,390,ruler_after_ner
+58,science,Arizona,GPE,392,399,ruler_after_ner
+58,science,31 consecutive days,DATE,412,431,ruler_after_ner
+58,science,43 degrees,QUANTITY,438,448,ruler_after_ner
+59,impact,Pakistan,GPE,26,34,ruler_after_ner
+59,impact,August,DATE,42,48,ruler_after_ner
+59,impact,September 2022,DATE,53,67,ruler_after_ner
+59,impact,one-third,CARDINAL,78,87,ruler_after_ner
+59,impact,33 million,CARDINAL,113,123,ruler_after_ner
+59,impact,over $30 billion,MONEY,143,159,ruler_after_ner
+59,impact,190%,PERCENT,215,219,ruler_after_ner
+59,impact,Karakoram,LOC,276,285,ruler_after_ner
+59,impact,Hindu Kush,PERSON,290,300,ruler_after_ner
+59,impact,The World Health Organization,ORG,309,338,ruler_after_ner
+59,impact,"1,739",CARDINAL,348,353,ruler_after_ner
+59,impact,8 million,CARDINAL,414,423,ruler_after_ner
+60,impact,the United States,GPE,54,71,ruler_after_ner
+60,impact,$92.9 billion,MONEY,80,93,ruler_after_ner
+60,impact,2023,DATE,97,101,ruler_after_ner
+60,impact,NOAA,ORG,116,120,ruler_after_ner
+60,impact,28,CARDINAL,133,135,ruler_after_ner
+60,impact,billion-dollar,MONEY,145,159,ruler_after_ner
+60,impact,Hawaii,GPE,200,206,ruler_after_ner
+60,impact,Lahaina,GPE,243,250,ruler_after_ner
+60,impact,100,CARDINAL,262,265,ruler_after_ner
+61,impact,The World Health Organization,ORG,0,29,ruler_after_ner
+61,impact,"approximately 250,000",CARDINAL,71,92,ruler_after_ner
+61,impact,between 2030,DATE,120,132,ruler_after_ner
+61,impact,2050,DATE,137,141,ruler_after_ner
+61,impact,The Lancet Countdown on Health and Climate Change,ORG,203,252,ruler_after_ner
+61,impact,68%,PERCENT,324,327,ruler_after_ner
+61,impact,between 2000 and 2022,DATE,328,349,ruler_after_ner
+61,impact,the Middle East,LOC,356,371,ruler_after_ner
+61,impact,South Asia,LOC,376,386,ruler_after_ner
+62,impact,East Africa,GPE,3,14,ruler_after_ner
+62,impact,2020-2023,DATE,20,29,ruler_after_ner
+62,impact,40 years,DATE,55,63,ruler_after_ner
+62,impact,36 million,CARDINAL,75,85,ruler_after_ner
+62,impact,Kenya,GPE,100,105,ruler_after_ner
+62,impact,Somalia,GPE,107,114,ruler_after_ner
+62,impact,Ethiopia,GPE,120,128,ruler_after_ner
+62,impact,Five,CARDINAL,130,134,ruler_after_ner
+62,impact,over 13 million,CARDINAL,188,203,ruler_after_ner
+62,impact,late 2023,DATE,302,311,ruler_after_ner
+62,impact,2.4 million,CARDINAL,384,395,ruler_after_ner
+62,impact,Somalia,GPE,406,413,ruler_after_ner
+63,impact,Amman,GPE,15,20,ruler_after_ner
+63,impact,the 2023 summer,DATE,55,70,ruler_after_ner
+63,impact,75 micrograms per cubic meter,QUANTITY,117,146,ruler_after_ner
+63,impact,12 days,DATE,150,157,ruler_after_ner
+63,impact,three,CARDINAL,159,164,ruler_after_ner
+63,impact,WHO,ORG,175,178,ruler_after_ner
+63,impact,25,CARDINAL,192,194,ruler_after_ner
+63,impact,4.2 million,CARDINAL,344,355,ruler_after_ner
+63,impact,The Ministry of Health,ORG,367,389,ruler_after_ner
+64,impact,2023,DATE,50,54,ruler_after_ner
+64,impact,the Internal Displacement Monitoring Centre,ORG,61,104,ruler_after_ner
+64,impact,26.4 million,CARDINAL,115,127,ruler_after_ner
+64,impact,The Middle East,LOC,186,201,ruler_after_ner
+64,impact,North Africa,GPE,206,218,ruler_after_ner
+64,impact,1.2 million,CARDINAL,230,241,ruler_after_ner
+64,impact,Libya,GPE,290,295,ruler_after_ner
+64,impact,Levant,GPE,319,325,ruler_after_ner
+64,impact,UNHCR,ORG,327,332,ruler_after_ner
+64,impact,Jordan,GPE,410,416,ruler_after_ner
+64,impact,Lebanon,GPE,418,425,ruler_after_ner
+64,impact,Turkey,GPE,431,437,ruler_after_ner
+65,adaptation,Morocco,GPE,0,7,ruler_after_ner
+65,adaptation,Noor-Ouarzazate,ORG,10,25,ruler_after_ner
+65,adaptation,one,CARDINAL,60,63,ruler_after_ner
+65,adaptation,580 megawatts,QUANTITY,90,103,ruler_after_ner
+65,adaptation,up to 7 hours,TIME,166,179,ruler_after_ner
+65,adaptation,$2.5 billion,MONEY,198,210,ruler_after_ner
+65,adaptation,Morocco,GPE,228,235,ruler_after_ner
+65,adaptation,CO2,PRODUCT,238,241,ruler_after_ner
+65,adaptation,"760,000 tonnes",QUANTITY,255,269,ruler_after_ner
+65,adaptation,annually,DATE,270,278,ruler_after_ner
+65,adaptation,Morocco,GPE,280,287,ruler_after_ner
+65,adaptation,52%,PERCENT,302,305,ruler_after_ner
+65,adaptation,2030,DATE,335,339,ruler_after_ner
+65,adaptation,Sahara,LOC,372,378,ruler_after_ner
+65,adaptation,Europe,LOC,416,422,ruler_after_ner
+66,adaptation,Sahara,LOC,28,34,ruler_after_ner
+66,adaptation,Sahel Initiative,PERSON,39,55,ruler_after_ner
+66,adaptation,2007,DATE,69,73,ruler_after_ner
+66,adaptation,100 million,CARDINAL,91,102,ruler_after_ner
+66,adaptation,"8,000 kilometers",QUANTITY,136,152,ruler_after_ner
+66,adaptation,Senegal,GPE,158,165,ruler_after_ner
+66,adaptation,Djibouti,GPE,169,177,ruler_after_ner
+66,adaptation,2024,DATE,185,189,ruler_after_ner
+66,adaptation,approximately 18 million,QUANTITY,191,215,ruler_after_ner
+66,adaptation,UNEP,ORG,245,249,ruler_after_ner
+66,adaptation,20,CARDINAL,278,280,ruler_after_ner
+66,adaptation,African,NORP,281,288,ruler_after_ner
+66,adaptation,$19 billion,MONEY,326,337,ruler_after_ner
+66,adaptation,the One Planet Summit,ORG,360,381,ruler_after_ner
+66,adaptation,January 2021,DATE,385,397,ruler_after_ner
+67,adaptation,Denmark,GPE,0,7,ruler_after_ner
+67,adaptation,Kalundborg Symbiosis,ORG,10,30,ruler_after_ner
+67,adaptation,1972,DATE,48,52,ruler_after_ner
+67,adaptation,Nine,CARDINAL,115,119,ruler_after_ner
+67,adaptation,"5,000",CARDINAL,201,206,ruler_after_ner
+67,adaptation,"635,000 tonnes",QUANTITY,337,351,ruler_after_ner
+67,adaptation,$28 million,MONEY,395,406,ruler_after_ner
+67,adaptation,annually,DATE,407,415,ruler_after_ner
+68,adaptation,Medina al-Munawwarah,GPE,12,32,ruler_after_ner
+68,adaptation,2023,DATE,73,77,ruler_after_ner
+68,adaptation,3-degree,QUANTITY,156,164,ruler_after_ner
+68,adaptation,2027,DATE,249,253,ruler_after_ner
+68,adaptation,Saudi Arabia's,GPE,281,295,ruler_after_ner
+68,adaptation,$2 billion,MONEY,355,365,ruler_after_ner
+69,adaptation,Egypt,GPE,0,5,ruler_after_ner
+69,adaptation,National Adaptation Plan,ORG,8,32,ruler_after_ner
+69,adaptation,the Nile Delta,LOC,45,59,ruler_after_ner
+69,adaptation,50%,PERCENT,67,70,ruler_after_ner
+69,adaptation,$3.5 billion,MONEY,173,185,ruler_after_ner
+69,adaptation,the Agricultural Research Centre,ORG,298,330,ruler_after_ner
+69,adaptation,Delta,ORG,336,341,ruler_after_ner
+69,adaptation,60%,PERCENT,351,354,ruler_after_ner
+69,adaptation,Egypt,GPE,358,363,ruler_after_ner
+69,adaptation,40%,PERCENT,375,378,ruler_after_ner
+69,adaptation,40 million,CARDINAL,403,413,ruler_after_ner
+70,adaptation,Middle Eastern,NORP,29,43,ruler_after_ner
+70,adaptation,3 to 8 degrees Celsius,QUANTITY,83,105,ruler_after_ner
+70,adaptation,Amman,GPE,131,136,ruler_after_ner
+70,adaptation,Riyadh,GPE,138,144,ruler_after_ner
+70,adaptation,Baghdad,GPE,150,157,ruler_after_ner
+71,policy,UNEP,ORG,0,4,ruler_after_ner
+71,policy,Emissions Gap Report,ORG,7,27,ruler_after_ner
+71,policy,2023,DATE,28,32,ruler_after_ner
+71,policy,2.5,CARDINAL,88,91,ruler_after_ner
+71,policy,2.9 degrees,QUANTITY,95,106,ruler_after_ner
+71,policy,2100,DATE,129,133,ruler_after_ner
+71,policy,NDCs,POLICY,192,196,ruler_after_ner
+71,policy,2.0 degrees,QUANTITY,218,229,ruler_after_ner
+71,policy,the Paris Agreement,EVENT,243,262,ruler_after_ner
+71,policy,42%,PERCENT,293,296,ruler_after_ner
+71,policy,2030,DATE,330,334,ruler_after_ner
+71,policy,57%,PERCENT,341,344,ruler_after_ner
+71,policy,2035,DATE,358,362,ruler_after_ner
+71,policy,2019,DATE,375,379,ruler_after_ner
+72,adaptation,Jordan,GPE,85,91,ruler_after_ner
+72,adaptation,Israel,GPE,93,99,ruler_after_ner
+72,adaptation,the Palestinian Authority,ORG,105,130,ruler_after_ner
+72,adaptation,300 million cubic meters,QUANTITY,148,172,ruler_after_ner
+72,adaptation,Dead Sea,LOC,221,229,ruler_after_ner
+72,adaptation,$10 billion,MONEY,242,253,ruler_after_ner
+72,adaptation,800 megawatts,QUANTITY,306,319,ruler_after_ner
+72,adaptation,400-meter,QUANTITY,330,339,ruler_after_ner
+72,adaptation,the Red Sea,LOC,369,380,ruler_after_ner
+72,adaptation,2024,DATE,401,405,ruler_after_ner
+72,adaptation,World Bank,ORG,442,452,ruler_after_ner
+73,impact,The Lancet Planetary Health,ORG,28,55,ruler_after_ner
+73,impact,35 degrees,QUANTITY,98,108,ruler_after_ner
+73,impact,12%,PERCENT,160,163,ruler_after_ner
+73,impact,the Middle East,LOC,177,192,ruler_after_ner
+73,impact,South Asia,LOC,197,207,ruler_after_ner
+73,impact,$2.4 trillion,MONEY,268,281,ruler_after_ner
+73,impact,annually,DATE,282,290,ruler_after_ner
+73,impact,2030,DATE,294,298,ruler_after_ner
+73,impact,Jordan,PERSON,300,306,ruler_after_ner
+73,impact,40%,PERCENT,381,384,ruler_after_ner
+73,impact,months,DATE,428,434,ruler_after_ner
+74,science,Antarctic,ORG,4,13,ruler_after_ner
+74,science,26.0 million square kilometers,QUANTITY,55,85,ruler_after_ner
+74,science,"September 21, 2023",DATE,89,107,ruler_after_ner
+74,science,12th,ORDINAL,124,128,ruler_after_ner
+74,science,1979,DATE,160,164,ruler_after_ner
+74,science,the Montreal Protocol,ORG,172,193,ruler_after_ner
+74,science,approximately 2066,DATE,269,287,ruler_after_ner
+74,science,Antarctica,LOC,293,303,ruler_after_ner
+74,science,NOAA,ORG,321,325,ruler_after_ner
+74,science,NASA,ORG,330,334,ruler_after_ner
+75,adaptation,Mediterranean,LOC,77,90,ruler_after_ner
+75,adaptation,5-15%,PERCENT,101,106,ruler_after_ner
+75,adaptation,2050,DATE,110,114,ruler_after_ner
+75,adaptation,Jordan,GPE,162,168,ruler_after_ner
+75,adaptation,Al Tafila,PERSON,171,180,ruler_after_ner
+75,adaptation,38,CARDINAL,202,204,ruler_after_ner
+75,adaptation,117 megawatts,QUANTITY,217,230,ruler_after_ner
+75,adaptation,"approximately 80,000",CARDINAL,365,385,ruler_after_ner
+75,adaptation,Jordanian,NORP,386,395,ruler_after_ner
+75,adaptation,annually,DATE,407,415,ruler_after_ner
+76,science,The Intergovernmental Panel on Climate Change Special Report,ORG,0,60,ruler_after_ner
+76,science,90%,PERCENT,130,133,ruler_after_ner
+76,science,1970,DATE,197,201,ruler_after_ner
+76,science,Marine,ORG,203,209,ruler_after_ner
+76,science,1982,DATE,252,256,ruler_after_ner
+76,science,20 to 50,CARDINAL,285,293,ruler_after_ner
+76,science,2 degrees,QUANTITY,320,329,ruler_after_ner
+77,policy,October 2023,DATE,3,15,ruler_after_ner
+77,policy,the African Group of Negotiators,ORG,17,49,ruler_after_ner
+77,policy,$1.3 trillion,MONEY,61,74,ruler_after_ner
+77,policy,annual,DATE,78,84,ruler_after_ner
+77,policy,2030,DATE,104,108,ruler_after_ner
+77,policy,approximately $100 billion,MONEY,140,166,ruler_after_ner
+77,policy,Africa,LOC,242,248,ruler_after_ner
+77,policy,only 3.8%,PERCENT,258,267,ruler_after_ner
+77,policy,$50 billion,MONEY,318,329,ruler_after_ner
+77,policy,100,MONEY,362,365,ruler_after_ner
+77,policy,2030,DATE,381,385,ruler_after_ner
+78,adaptation,Jordan,GPE,0,6,ruler_after_ner
+78,adaptation,Azraq,ORG,9,14,ruler_after_ner
+78,adaptation,"approximately 43,000",CARDINAL,37,57,ruler_after_ner
+78,adaptation,Syrian,NORP,58,64,ruler_after_ner
+78,adaptation,first,ORDINAL,94,99,ruler_after_ner
+78,adaptation,2017,DATE,159,163,ruler_after_ner
+78,adaptation,12.9-megawatt,QUANTITY,171,184,ruler_after_ner
+78,adaptation,UNHCR,ORG,216,221,ruler_after_ner
+78,adaptation,IKEA Foundation,ORG,226,241,ruler_after_ner
+78,adaptation,$5.5 million,MONEY,270,282,ruler_after_ner
+78,adaptation,annually,DATE,283,291,ruler_after_ner
+78,adaptation,14 hours,TIME,321,329,ruler_after_ner
+78,adaptation,only 8 hours,TIME,425,437,ruler_after_ner
+123,science,The United Nations Environment Programme,ORG,0,40,ruler_after_ner
+123,science,2023,DATE,54,58,ruler_after_ner
+123,science,Global Methane Assessment,WORK_OF_ART,59,84,ruler_after_ner
+123,science,45%,PERCENT,150,153,ruler_after_ner
+123,science,2030,DATE,157,161,ruler_after_ner
+123,science,three,CARDINAL,300,305,ruler_after_ner
+123,science,UNEP,ORG,323,327,ruler_after_ner
+123,science,0.3 degrees,QUANTITY,380,391,ruler_after_ner
+123,science,mid-century,DATE,406,417,ruler_after_ner
+124,policy,The International Maritime Organization,ORG,0,39,ruler_after_ner
+124,policy,July 2023,DATE,85,94,ruler_after_ner
+124,policy,2050,DATE,177,181,ruler_after_ner
+124,policy,50%,PERCENT,209,212,ruler_after_ner
+124,policy,approximately 3%,PERCENT,246,262,ruler_after_ner
+124,policy,20%,PERCENT,336,339,ruler_after_ner
+124,policy,2030,DATE,362,366,ruler_after_ner
+124,policy,70%,PERCENT,371,374,ruler_after_ner
+124,policy,2040,DATE,378,382,ruler_after_ner
+124,policy,2008,DATE,395,399,ruler_after_ner
+125,science,Nature Food,ORG,11,22,ruler_after_ner
+125,science,approximately 34%,PERCENT,76,93,ruler_after_ner
+125,science,14.5%,PERCENT,187,192,ruler_after_ner
+125,science,up to 70%,PERCENT,404,413,ruler_after_ner
+126,impact,The World Resources Institute,ORG,0,29,ruler_after_ner
+126,impact,22.8 million,CARDINAL,75,87,ruler_after_ner
+126,impact,2023,DATE,100,104,ruler_after_ner
+126,impact,every 5 seconds,TIME,154,169,ruler_after_ner
+126,impact,3.7 million,CARDINAL,214,225,ruler_after_ner
+126,impact,Brazil,GPE,241,247,ruler_after_ner
+126,impact,the Democratic Republic of Congo,GPE,249,281,ruler_after_ner
+126,impact,Bolivia,GPE,287,294,ruler_after_ner
+127,adaptation,Jordan,GPE,0,6,ruler_after_ner
+127,adaptation,Ministry of Water and Irrigation,ORG,9,41,ruler_after_ner
+127,adaptation,the National Water Strategy,ORG,51,78,ruler_after_ner
+127,adaptation,2023-2040,DATE,79,88,ruler_after_ner
+127,adaptation,25%,PERCENT,102,105,ruler_after_ner
+127,adaptation,40%,PERCENT,150,153,ruler_after_ner
+127,adaptation,400 million cubic meters,QUANTITY,288,312,ruler_after_ner
+127,adaptation,annually,DATE,313,321,ruler_after_ner
+127,adaptation,the World Bank,ORG,354,368,ruler_after_ner
+127,adaptation,USAID,ORG,370,375,ruler_after_ner
+127,adaptation,German,NORP,385,391,ruler_after_ner
+127,adaptation,KfW,ORG,411,414,ruler_after_ner
+127,adaptation,$1.8 billion,MONEY,428,440,ruler_after_ner
+128,policy,"over 12,500",CARDINAL,67,78,ruler_after_ner
+128,policy,1 billion,CARDINAL,90,99,ruler_after_ner
+128,policy,32%,PERCENT,185,188,ruler_after_ner
+128,policy,2030,DATE,192,196,ruler_after_ner
+128,policy,approximately 70%,PERCENT,217,234,ruler_after_ner
+129,science,the Middle East,LOC,57,72,ruler_after_ner
+129,science,winter,DATE,79,85,ruler_after_ner
+129,science,10-20%,PERCENT,108,114,ruler_after_ner
+129,science,1960,DATE,121,125,ruler_after_ner
+129,science,Earth,LOC,221,226,ruler_after_ner
+129,science,the Eastern Mediterranean,LOC,277,302,ruler_after_ner
+129,science,3.5,CARDINAL,332,335,ruler_after_ner
+129,science,1900,DATE,342,346,ruler_after_ner
+129,science,20%,PERCENT,382,385,ruler_after_ner
+129,science,2050,DATE,395,399,ruler_after_ner
+130,policy,The Asian Development Bank,ORG,0,26,ruler_after_ner
+130,policy,$100 billion,MONEY,37,49,ruler_after_ner
+130,policy,2019-2030,DATE,88,97,ruler_after_ner
+130,policy,South,LOC,145,150,ruler_after_ner
+130,policy,Southeast Asia,LOC,155,169,ruler_after_ner
+130,policy,$250 million,MONEY,302,314,ruler_after_ner
+130,policy,Pakistan,GPE,323,331,ruler_after_ner
+130,policy,$180 million,MONEY,368,380,ruler_after_ner
+130,policy,India,GPE,421,426,ruler_after_ner
+131,science,the Tibetan Plateau,LOC,26,45,ruler_after_ner
+131,science,1.5 million square kilometers,QUANTITY,85,114,ruler_after_ner
+131,science,Qinghai,GPE,164,171,ruler_after_ner
+131,science,2006,DATE,200,204,ruler_after_ner
+131,science,0.5 degrees Celsius,QUANTITY,356,375,ruler_after_ner
+131,science,1980,DATE,393,397,ruler_after_ner
+131,science,40%,PERCENT,403,406,ruler_after_ner
+131,science,2100,DATE,452,456,ruler_after_ner
+132,policy,The European Investment Bank,ORG,0,28,ruler_after_ner
+132,policy,36 billion,CARDINAL,38,48,ruler_after_ner
+132,policy,2023,DATE,112,116,ruler_after_ner
+132,policy,58%,PERCENT,131,134,ruler_after_ner
+132,policy,4.5 billion,MONEY,182,193,ruler_after_ner
+132,policy,the North Sea,LOC,221,234,ruler_after_ner
+132,policy,2 billion,MONEY,238,247,ruler_after_ner
+132,policy,Poland,GPE,288,294,ruler_after_ner
+132,policy,500 million,CARDINAL,302,313,ruler_after_ner
+132,policy,Spain,GPE,357,362,ruler_after_ner
+132,policy,1 trillion,QUANTITY,390,400,ruler_after_ner
+132,policy,2030,DATE,430,434,ruler_after_ner
+133,science,the Dead Sea,LOC,59,71,ruler_after_ner
+133,science,60%,PERCENT,149,152,ruler_after_ner
+133,science,1990,DATE,159,163,ruler_after_ner
+133,science,the University of Jordan,ORG,182,206,ruler_after_ner
+133,science,the Helmholtz Centre for Environmental Research,ORG,211,258,ruler_after_ner
+133,science,The Dead Sea's,LOC,364,378,ruler_after_ner
+133,science,31.5%,PERCENT,407,412,ruler_after_ner
+133,science,34.2%,PERCENT,416,421,ruler_after_ner
+133,science,three decades,DATE,425,438,ruler_after_ner
+134,adaptation,Indonesia,GPE,0,9,ruler_after_ner
+134,adaptation,"600,000",CARDINAL,89,96,ruler_after_ner
+134,adaptation,2025,DATE,138,142,ruler_after_ner
+134,adaptation,3,CARDINAL,180,181,ruler_after_ner
+134,adaptation,5,CARDINAL,185,186,ruler_after_ner
+134,adaptation,2024,DATE,293,297,ruler_after_ner
+134,adaptation,"130,000",CARDINAL,299,306,ruler_after_ner
+134,adaptation,FAO,ORG,390,393,ruler_after_ner
+134,adaptation,the Asian Development Bank,ORG,398,424,ruler_after_ner
+137,adaptation,The Global Commission on Adaptation,ORG,0,35,ruler_after_ner
+137,adaptation,$1.8 trillion,MONEY,61,74,ruler_after_ner
+137,adaptation,between 2020 and 2030,DATE,97,118,ruler_after_ner
+137,adaptation,five,CARDINAL,126,130,ruler_after_ner
+137,adaptation,$7.1 trillion,MONEY,303,316,ruler_after_ner
+137,adaptation,Ban Ki-moon,PERSON,367,378,ruler_after_ner
+137,adaptation,Bill Gates,PERSON,383,393,ruler_after_ner
+138,science,the Alfred Wegener Institute,ORG,16,44,ruler_after_ner
+138,science,Nature Climate Change,ORG,67,88,ruler_after_ner
+138,science,Antarctic,LOC,106,115,ruler_after_ner
+138,science,between 2012 and 2022,DATE,133,154,ruler_after_ner
+138,science,the previous decade,DATE,167,186,ruler_after_ner
+138,science,the Doomsday Glacier,PERSON,220,240,ruler_after_ner
+138,science,2 kilometers,QUANTITY,269,281,ruler_after_ner
+138,science,65 centimeters,QUANTITY,342,356,ruler_after_ner
+138,science,West Antarctic Ice Sheet,LOC,405,429,ruler_after_ner
+139,impact,The Jordan River,LOC,0,16,ruler_after_ner
+139,impact,1.3 billion cubic meters,QUANTITY,34,58,ruler_after_ner
+139,impact,annually,DATE,59,67,ruler_after_ner
+139,impact,less than 100 million cubic meters,MONEY,81,115,ruler_after_ner
+139,impact,93%,PERCENT,120,123,ruler_after_ner
+139,impact,Israel,GPE,154,160,ruler_after_ner
+139,impact,Jordan,GPE,162,168,ruler_after_ner
+139,impact,Syria,GPE,174,179,ruler_after_ner
+139,impact,Friends of the Earth Middle East,ORG,317,349,ruler_after_ner
+140,adaptation,Kenya,GPE,0,5,ruler_after_ner
+140,adaptation,Africa,LOC,15,21,ruler_after_ner
+140,adaptation,Olkaria,GPE,58,65,ruler_after_ner
+140,adaptation,the Great Rift Valley,FAC,69,90,ruler_after_ner
+140,adaptation,863 megawatts,QUANTITY,103,116,ruler_after_ner
+140,adaptation,45%,PERCENT,131,134,ruler_after_ner
+140,adaptation,95%,PERCENT,187,190,ruler_after_ner
+140,adaptation,Kenya,GPE,250,255,ruler_after_ner
+140,adaptation,"5,000 megawatts",QUANTITY,295,310,ruler_after_ner
+140,adaptation,2030,DATE,314,318,ruler_after_ner
+140,adaptation,the African Union,ORG,352,369,ruler_after_ner
+140,adaptation,the Japan International Cooperation Agency,ORG,374,416,ruler_after_ner
+142,science,IPCC,ORG,4,8,ruler_after_ner
+142,science,Working Group III,ORG,11,28,ruler_after_ner
+142,science,21%,PERCENT,133,136,ruler_after_ner
+142,science,zero,CARDINAL,195,199,ruler_after_ner
+142,science,2030,DATE,254,258,ruler_after_ner
+142,science,2-3%,PERCENT,313,317,ruler_after_ner
+142,science,75-90%,PERCENT,397,403,ruler_after_ner
+143,policy,December 2023,DATE,3,16,ruler_after_ner
+143,policy,the United Nations,ORG,18,36,ruler_after_ner
+143,policy,2025,DATE,48,52,ruler_after_ner
+143,policy,the International Year of Glaciers,EVENT,56,90,ruler_after_ner
+143,policy,Over 200 million,CARDINAL,202,218,ruler_after_ner
+143,policy,Hindu,NORP,303,308,ruler_after_ner
+143,policy,Kush Himalayan,PERSON,309,323,ruler_after_ner
+143,policy,ten,CARDINAL,383,386,ruler_after_ner
+143,policy,Asia,LOC,414,418,ruler_after_ner
+144,science,Red Sea,LOC,4,11,ruler_after_ner
+144,science,Science Advances,ORG,191,207,ruler_after_ner
+144,science,the Gulf of Aqaba,FAC,229,246,ruler_after_ner
+144,science,4-5 degrees,QUANTITY,274,285,ruler_after_ner
+144,science,Jordan,GPE,385,391,ruler_after_ner
+144,science,Saudi Arabia,GPE,396,408,ruler_after_ner
+144,science,Red Sea,LOC,461,468,ruler_after_ner
+147,science,The World Glacier Monitoring Service,ORG,0,36,ruler_after_ner
+147,science,over 1 meter,QUANTITY,106,118,ruler_after_ner
+147,science,2023,DATE,122,126,ruler_after_ner
+147,science,Swiss,NORP,168,173,ruler_after_ner
+147,science,10%,PERCENT,194,197,ruler_after_ner
+147,science,the past two years,DATE,227,245,ruler_after_ner
+147,science,The Aletsch Glacier,PERSON,247,266,ruler_after_ner
+147,science,Alps,LOC,287,291,ruler_after_ner
+147,science,3 kilometers,QUANTITY,310,322,ruler_after_ner
+147,science,1900,DATE,329,333,ruler_after_ner
+147,science,80%,PERCENT,359,362,ruler_after_ner
+147,science,2100,CARDINAL,388,392,ruler_after_ner
+148,adaptation,the Jordan Valley,LOC,39,56,ruler_after_ner
+148,adaptation,15-30%,PERCENT,97,103,ruler_after_ner
+148,adaptation,40%,PERCENT,140,143,ruler_after_ner
+148,adaptation,FAO,ORG,313,316,ruler_after_ner
+148,adaptation,the Jordanian Ministry of Agriculture,ORG,321,358,ruler_after_ner
+148,adaptation,"10,000",CARDINAL,396,402,ruler_after_ner
+148,adaptation,2026,DATE,425,429,ruler_after_ner
+151,policy,the International Court of Justice,ORG,21,55,ruler_after_ner
+151,policy,March 2024,DATE,59,69,ruler_after_ner
+151,policy,Vanuatu,PERSON,215,222,ruler_after_ner
+151,policy,over 130,CARDINAL,240,248,ruler_after_ner
+151,policy,"Over 2,300",CARDINAL,363,373,ruler_after_ner
+151,policy,65,CARDINAL,419,421,ruler_after_ner
+152,adaptation,up to 90%,PERCENT,167,176,ruler_after_ner
+152,adaptation,Jordan,GPE,213,219,ruler_after_ner
+152,adaptation,20-megawatt,QUANTITY,254,265,ruler_after_ner
+152,adaptation,the King Talal Dam reservoir,ORG,297,325,ruler_after_ner
+152,adaptation,8 million cubic meters,QUANTITY,383,405,ruler_after_ner
+154,policy,The Global Adaptation Finance Tracker,ORG,0,37,ruler_after_ner
+154,policy,only 7%,PERCENT,51,58,ruler_after_ner
+154,policy,The Climate Justice Alliance,ORG,173,201,ruler_after_ner
+154,policy,Bangladesh,GPE,366,376,ruler_after_ner
+154,policy,Kenya,GPE,378,383,ruler_after_ner
+154,policy,Pacific Island,LOC,389,403,ruler_after_ner
+155,science,the King Abdullah University of Science and Technology,ORG,15,69,ruler_after_ner
+155,science,Saudi Arabia,GPE,73,85,ruler_after_ner
+155,science,CRISPR,PERSON,136,142,ruler_after_ner
+155,science,Tabuk,LOC,258,263,ruler_after_ner
+155,science,85%,PERCENT,284,287,ruler_after_ner
+155,science,three,CARDINAL,338,343,ruler_after_ner
+155,science,the Middle East,LOC,441,456,ruler_after_ner
+157,impact,The Global Biodiversity Framework Monitor,ORG,0,41,ruler_after_ner
+157,impact,37%,PERCENT,56,59,ruler_after_ner
+157,impact,The Mediterranean Sea,LOC,303,324,ruler_after_ner
+157,impact,41%,PERCENT,334,337,ruler_after_ner
+157,impact,1970,DATE,377,381,ruler_after_ner
+158,adaptation,Jordan,PERSON,0,6,ruler_after_ner
+158,adaptation,the European Space Agency,ORG,22,47,ruler_after_ner
+158,adaptation,45,CARDINAL,71,73,ruler_after_ner
+158,adaptation,3,CARDINAL,108,109,ruler_after_ner
+158,adaptation,the Jordan Valley,LOC,160,177,ruler_after_ner
+158,adaptation,$12 million,MONEY,210,221,ruler_after_ner
+158,adaptation,March 2024,DATE,249,259,ruler_after_ner
+158,adaptation,"15,000",CARDINAL,296,302,ruler_after_ner
+158,adaptation,an estimated 22%,PERCENT,398,414,ruler_after_ner
+158,adaptation,the 2024 winter season,DATE,422,444,ruler_after_ner
+160,science,45 million tonnes,QUANTITY,67,84,ruler_after_ner
+160,science,2024,DATE,106,110,ruler_after_ner
+160,science,the Global CCS Institute,ORG,125,149,ruler_after_ner
+160,science,Gorgon,ORG,189,195,ruler_after_ner
+160,science,Western Australia,LOC,207,224,ruler_after_ner
+160,science,4 million tonnes,QUANTITY,235,251,ruler_after_ner
+160,science,annually,DATE,252,260,ruler_after_ner
+160,science,CCS,GPE,288,291,ruler_after_ner
+161,policy,OECD,ORG,4,8,ruler_after_ner
+161,policy,$1.3 trillion,MONEY,97,110,ruler_after_ner
+161,policy,2022,DATE,114,118,ruler_after_ner
+161,policy,2021,DATE,138,142,ruler_after_ner
+161,policy,IMF,ORG,256,259,ruler_after_ner
+161,policy,$7 trillion,MONEY,364,375,ruler_after_ner
+161,policy,7.1%,PERCENT,401,405,ruler_after_ner
+162,impact,threatens 40%,PERCENT,16,29,ruler_after_ner
+162,impact,Earth,LOC,37,42,ruler_after_ner
+162,impact,2 billion,CARDINAL,88,97,ruler_after_ner
+162,impact,12 million,CARDINAL,139,149,ruler_after_ner
+162,impact,annually,DATE,218,226,ruler_after_ner
+162,impact,$490 billion,MONEY,262,274,ruler_after_ner
+162,impact,The Sahara Desert,LOC,285,302,ruler_after_ner
+162,impact,10%,PERCENT,319,322,ruler_after_ner
+162,impact,1920,DATE,329,333,ruler_after_ner
+162,impact,Sahel,PERSON,364,369,ruler_after_ner
+162,impact,approximately 48 kilometers,QUANTITY,383,410,ruler_after_ner
+164,policy,$2.2 trillion,MONEY,32,45,ruler_after_ner
+164,policy,the end of 2023,DATE,72,87,ruler_after_ner
+164,policy,annual,DATE,94,100,ruler_after_ner
+164,policy,$575 billion,MONEY,119,131,ruler_after_ner
+164,policy,The European Union,ORG,133,151,ruler_after_ner
+164,policy,China,GPE,203,208,ruler_after_ner
+164,policy,the United States,GPE,213,230,ruler_after_ner
+164,policy,Jordan,PERSON,232,238,ruler_after_ner
+164,policy,first,ORDINAL,250,255,ruler_after_ner
+164,policy,2023,DATE,280,284,ruler_after_ner
+164,policy,$250 million,MONEY,294,306,ruler_after_ner
+165,impact,73,CARDINAL,57,59,ruler_after_ner
+165,impact,1 degree,QUANTITY,275,283,ruler_after_ner
+165,impact,3-5%,PERCENT,357,361,ruler_after_ner
+167,impact,The Global Heat Health Information Network,ORG,0,42,ruler_after_ner
+167,impact,2024 heatwave season,DATE,59,79,ruler_after_ner
+167,impact,El Nino,ORG,136,143,ruler_after_ner
+167,impact,the Northern Hemisphere,LOC,171,194,ruler_after_ner
+167,impact,the Middle East,LOC,242,257,ruler_after_ner
+167,impact,South Asia,LOC,262,272,ruler_after_ner
+167,impact,hours,TIME,354,359,ruler_after_ner
+167,impact,Amman,GPE,398,403,ruler_after_ner
+167,impact,Riyadh,GPE,405,411,ruler_after_ner
+167,impact,Baghdad,GPE,417,424,ruler_after_ner
+168,adaptation,up to 10%,PERCENT,102,111,ruler_after_ner
+168,adaptation,2050,DATE,137,141,ruler_after_ner
+168,adaptation,The Red Sea's,LOC,163,176,ruler_after_ner
+168,adaptation,Saudi Arabia,GPE,255,267,ruler_after_ner
+168,adaptation,500-megawatt,QUANTITY,279,291,ruler_after_ner
+168,adaptation,Neom,GPE,316,320,ruler_after_ner
+168,adaptation,Mediterranean,LOC,369,382,ruler_after_ner
+168,adaptation,Spain,GPE,401,406,ruler_after_ner
+168,adaptation,Italy,GPE,408,413,ruler_after_ner
+168,adaptation,Greece,GPE,419,425,ruler_after_ner
+170,policy,The Global Stocktake at COP28,WORK_OF_ART,0,29,ruler_after_ner
+170,policy,first,ORDINAL,35,40,ruler_after_ner
+170,policy,the Paris Agreement,EVENT,84,103,ruler_after_ner
+170,policy,2.4-2.6 degrees,QUANTITY,220,235,ruler_after_ner
+170,policy,2100,DATE,250,254,ruler_after_ner
+170,policy,non-CO2,NORP,401,408,ruler_after_ner
+171,adaptation,AI,GPE,88,90,ruler_after_ner
+171,adaptation,30-50%,PERCENT,158,164,ruler_after_ner
+171,adaptation,the Jordan Valley,LOC,201,218,ruler_after_ner
+171,adaptation,200,CARDINAL,228,231,ruler_after_ner
+171,adaptation,IoT,ORG,243,246,ruler_after_ner
+171,adaptation,35%,PERCENT,337,340,ruler_after_ner
+171,adaptation,GIZ,ORG,425,428,ruler_after_ner
+171,adaptation,the Jordanian Ministry of Agriculture,ORG,433,470,ruler_after_ner
+173,adaptation,The International Renewable Energy Agency,ORG,0,41,ruler_after_ner
+173,adaptation,0.049,MONEY,138,143,ruler_after_ner
+173,adaptation,2023,DATE,165,169,ruler_after_ner
+173,adaptation,89%,PERCENT,174,177,ruler_after_ner
+173,adaptation,2010,DATE,192,196,ruler_after_ner
+173,adaptation,0.033,MONEY,226,231,ruler_after_ner
+173,adaptation,80%,PERCENT,244,247,ruler_after_ner
+173,adaptation,The Middle East,LOC,344,359,ruler_after_ner
+173,adaptation,North Africa,GPE,364,376,ruler_after_ner
+174,science,the Gulf of Aqaba,FAC,32,49,ruler_after_ner
+174,science,23,CARDINAL,75,77,ruler_after_ner
+174,science,Red Sea,LOC,181,188,ruler_after_ner
+174,science,the University of Jordan,ORG,226,250,ruler_after_ner
+174,science,the Aqaba Marine Science Station,ORG,255,287,ruler_after_ner
+174,science,Indo-Pacific,ORG,311,323,ruler_after_ner
+174,science,Jordanian,NORP,373,382,ruler_after_ner
+174,science,Mediterranean,LOC,446,459,ruler_after_ner
+176,science,NASA,ORG,17,21,ruler_after_ner
+176,science,ESA,ORG,26,29,ruler_after_ner
+176,science,GRACE-FO,ORG,65,73,ruler_after_ner
+176,science,Sentinel,ORG,78,86,ruler_after_ner
+176,science,the Middle East,LOC,141,156,ruler_after_ner
+176,science,Arabian,NORP,176,183,ruler_after_ner
+176,science,7.8 cubic kilometers,QUANTITY,271,291,ruler_after_ner
+176,science,Jordan,GPE,376,382,ruler_after_ner
+176,science,Saudi Arabia,GPE,384,396,ruler_after_ner
+176,science,Iraq,GPE,402,406,ruler_after_ner
+176,science,50 years,DATE,444,452,ruler_after_ner
+177,impact,The International Labour Organization,ORG,0,37,ruler_after_ner
+177,impact,80 million,CARDINAL,53,63,ruler_after_ner
+177,impact,2030,DATE,115,119,ruler_after_ner
+177,impact,the Middle East,LOC,263,278,ruler_after_ner
+177,impact,summer hours,TIME,310,322,ruler_after_ner
+177,impact,Qatar,GPE,347,352,ruler_after_ner
+177,impact,UAE,GPE,358,361,ruler_after_ner
+177,impact,Saudi Arabia,GPE,367,379,ruler_after_ner
+177,impact,Jordan,GPE,381,387,ruler_after_ner
+177,impact,first,ORDINAL,429,434,ruler_after_ner
+177,impact,June 2024,DATE,443,452,ruler_after_ner
+179,adaptation,African,NORP,4,11,ruler_after_ner
+179,adaptation,60%,PERCENT,28,31,ruler_after_ner
+179,adaptation,only 1.3%,PERCENT,82,91,ruler_after_ner
+179,adaptation,The African Union's Agenda,ORG,116,142,ruler_after_ner
+179,adaptation,2063,DATE,143,147,ruler_after_ner
+179,adaptation,"500-5,000",CARDINAL,287,296,ruler_after_ner
+179,adaptation,Africa,LOC,364,370,ruler_after_ner
+179,adaptation,50%,PERCENT,393,396,ruler_after_ner
+179,adaptation,2018,DATE,403,407,ruler_after_ner
+180,adaptation,Jordanian,NORP,12,21,ruler_after_ner
+180,adaptation,The Royal Scientific Society,ORG,191,219,ruler_after_ner
+180,adaptation,rainwater harvesting,PERSON,243,263,ruler_after_ner
+180,adaptation,Amman,GPE,281,286,ruler_after_ner
+180,adaptation,10 million cubic meters,QUANTITY,305,328,ruler_after_ner
+180,adaptation,annually,DATE,329,337,ruler_after_ner
+180,adaptation,"3,000",CARDINAL,366,371,ruler_after_ner
+180,adaptation,Jordan,GPE,411,417,ruler_after_ner
+180,adaptation,4 years,DATE,452,459,ruler_after_ner
+182,impact,The Coral Triangle Initiative,ORG,0,29,ruler_after_ner
+182,impact,six,CARDINAL,64,67,ruler_after_ner
+182,impact,Southeast Asian,NORP,68,83,ruler_after_ner
+182,impact,40 million,CARDINAL,107,117,ruler_after_ner
+182,impact,marine habitat,ORG,130,144,ruler_after_ner
+182,impact,2009,DATE,151,155,ruler_after_ner
+182,impact,76%,PERCENT,177,180,ruler_after_ner
+182,impact,120 million,CARDINAL,241,252,ruler_after_ner
+182,impact,annual,DATE,344,350,ruler_after_ner
+182,impact,2040,DATE,354,358,ruler_after_ner
+183,adaptation,12%,PERCENT,82,85,ruler_after_ner
+183,adaptation,2050,DATE,113,117,ruler_after_ner
+183,adaptation,the Hydrogen Council,ORG,132,152,ruler_after_ner
+183,adaptation,The Middle East's,LOC,154,171,ruler_after_ner
+183,adaptation,NEOM,ORG,233,237,ruler_after_ner
+183,adaptation,Saudi Arabia,GPE,275,287,ruler_after_ner
+183,adaptation,4,CARDINAL,300,301,ruler_after_ner
+183,adaptation,600 tonnes,QUANTITY,344,354,ruler_after_ner
+183,adaptation,Europe,LOC,395,401,ruler_after_ner
+183,adaptation,Asia,LOC,406,410,ruler_after_ner
+185,adaptation,The United Nations Industrial Development Organization,ORG,0,54,ruler_after_ner
+185,adaptation,28%,PERCENT,127,130,ruler_after_ner
+185,adaptation,2030,DATE,134,138,ruler_after_ner
+185,adaptation,6 million,CARDINAL,154,163,ruler_after_ner
+185,adaptation,Jordan,PERSON,336,342,ruler_after_ner
+185,adaptation,first,ORDINAL,345,350,ruler_after_ner
+185,adaptation,Hussein Bin Talal,PERSON,389,406,ruler_after_ner
+185,adaptation,12,CARDINAL,444,446,ruler_after_ner
+187,adaptation,India,GPE,0,5,ruler_after_ner
+187,adaptation,National Solar Mission,ORG,8,30,ruler_after_ner
+187,adaptation,70,CARDINAL,50,52,ruler_after_ner
+187,adaptation,2024,DATE,87,91,ruler_after_ner
+187,adaptation,280,CARDINAL,103,106,ruler_after_ner
+187,adaptation,2030,DATE,120,124,ruler_after_ner
+187,adaptation,The Bhadla Solar Park,ORG,126,147,ruler_after_ner
+187,adaptation,Rajasthan,GPE,151,160,ruler_after_ner
+187,adaptation,"14,000 acres",QUANTITY,171,183,ruler_after_ner
+187,adaptation,"2,245 megawatts",QUANTITY,189,204,ruler_after_ner
+187,adaptation,India,GPE,268,273,ruler_after_ner
+187,adaptation,0.038,MONEY,306,311,ruler_after_ner
+189,policy,only 6,CARDINAL,81,87,ruler_after_ner
+189,policy,40,CARDINAL,91,93,ruler_after_ner
+189,policy,Paris Agreement,FAC,123,138,ruler_after_ner
+189,policy,the United States,GPE,271,288,ruler_after_ner
+189,policy,China,GPE,290,295,ruler_after_ner
+189,policy,Russia,GPE,297,303,ruler_after_ner
+189,policy,India,GPE,309,314,ruler_after_ner
+189,policy,1.5-degree,QUANTITY,339,349,ruler_after_ner
+189,policy,G20,ORG,385,388,ruler_after_ner
+190,policy,The Global Methane Pledge,WORK_OF_ART,0,25,ruler_after_ner
+190,policy,COP26,CLIMATE_EVENT,39,44,ruler_after_ner
+190,policy,Glasgow,GPE,48,55,ruler_after_ner
+190,policy,over 150,CARDINAL,76,84,ruler_after_ner
+190,policy,30%,PERCENT,137,140,ruler_after_ner
+190,policy,2020,DATE,147,151,ruler_after_ner
+190,policy,2030,DATE,162,166,ruler_after_ner
+190,policy,0.2 degrees Celsius,QUANTITY,213,232,ruler_after_ner
+190,policy,2050,DATE,247,251,ruler_after_ner
+192,impact,The World Economic Forum's,ORG,0,26,ruler_after_ner
+192,impact,Global Risks Report,ORG,27,46,ruler_after_ner
+192,impact,2024,DATE,47,51,ruler_after_ner
+192,impact,two,CARDINAL,139,142,ruler_after_ner
+192,impact,10-year,DATE,163,170,ruler_after_ner
+193,science,the European Space Agency's,ORG,25,52,ruler_after_ner
+193,science,the Jordan Valley,LOC,108,125,ruler_after_ner
+193,science,18%,PERCENT,142,145,ruler_after_ner
+193,science,between 2015 and 2023,DATE,146,167,ruler_after_ner
+195,science,The Blue Carbon Initiative,ORG,0,26,ruler_after_ner
+195,science,up to 10,CARDINAL,116,124,ruler_after_ner
+195,science,The Gulf of Aqaba's,FAC,181,200,ruler_after_ner
+195,science,approximately 400 hectares,QUANTITY,228,254,ruler_after_ner
+195,science,Jordanian,NORP,265,274,ruler_after_ner
+195,science,"an estimated 1,800",CARDINAL,292,310,ruler_after_ner
+195,science,annually,DATE,325,333,ruler_after_ner
+197,science,The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services,ORG,0,84,ruler_after_ner
+197,science,1 million,CARDINAL,100,109,ruler_after_ner
+197,science,17 kilometers,QUANTITY,279,292,ruler_after_ner
+197,science,11 meters,QUANTITY,332,341,ruler_after_ner
+197,science,"100 to 1,000",CARDINAL,398,410,ruler_after_ner
+198,adaptation,Middle Eastern,NORP,68,82,ruler_after_ner
+198,adaptation,summer,DATE,123,129,ruler_after_ner
+198,adaptation,60-80%,PERCENT,207,213,ruler_after_ner
+198,adaptation,over 30%,PERCENT,339,347,ruler_after_ner
+198,adaptation,Dubai,GPE,367,372,ruler_after_ner
+198,adaptation,Sustainable City,GPE,375,391,ruler_after_ner
+198,adaptation,40%,PERCENT,421,424,ruler_after_ner
+200,policy,The Global Landscape of Climate Finance,WORK_OF_ART,0,39,ruler_after_ner
+200,policy,2023,DATE,40,44,ruler_after_ner
+200,policy,the Climate Policy Initiative,ORG,55,84,ruler_after_ner
+200,policy,$1.27 trillion,MONEY,126,140,ruler_after_ner
+200,policy,2021-2022,DATE,144,153,ruler_after_ner
+200,policy,63%,PERCENT,157,160,ruler_after_ner
+200,policy,$8.1 trillion,MONEY,222,235,ruler_after_ner
+200,policy,annually,DATE,243,251,ruler_after_ner
+200,policy,2030,DATE,255,259,ruler_after_ner
+200,policy,1.5 degrees,QUANTITY,280,291,ruler_after_ner
+200,policy,94%,PERCENT,326,329,ruler_after_ner
+200,policy,only 6%,PERCENT,370,377,ruler_after_ner

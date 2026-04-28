@@ -1,0 +1,133 @@
+Shape: (200, 5)
+Languages: {'en': 132, 'ar': 68}
+Categories: {'adaptation': 61, 'science': 50, 'impact': 46, 'policy': 43}
+Text length (words): {'mean': 56.99, 'min': 36, 'max': 73}
+
+Sample preprocessed tokens: ['the', 'ipcc', 'release', 'its', 'sixth', 'assessment', 'report', 'in', 'march', '2023']
+
+spaCy entities: 1202 total
+HF entities: 614 total
+
+NER Output Comparison
+---------------------
+Total spaCy entities: 1202
+Total HF entities: 614
+
+spaCy counts by label:
+{'DATE': 256, 'ORG': 184, 'GPE': 165, 'CARDINAL': 138, 'PERCENT': 103, 'LOC': 93, 'QUANTITY': 92, 'MONEY': 63, 'PERSON': 36, 'NORP': 21, 'ORDINAL': 9, 'FAC': 9, 'EVENT': 8, 'TIME': 8, 'WORK_OF_ART': 6, 'PRODUCT': 6, 'LAW': 5}
+
+HF counts by label:
+{'LOC': 296, 'ORG': 183, 'MISC': 120, 'PER': 15}
+
+Overlap summary:
+Both systems: 307
+spaCy only: 881
+HF only: 282
+
+Both systems agreed on 307 entities
+spaCy-only: 881
+HF-only: 282
+
+spaCy evaluation: {'precision': 0.6338028169014085, 'recall': 0.6521739130434783, 'f1': 0.6428571428571428}
+HF evaluation: {'precision': 0.3541666666666667, 'recall': 0.2463768115942029, 'f1': 0.2905982905982906}
+
+=== Challenge Tier 1: Per-Category NER Analysis ===
+
+spaCy entity counts by category:
+entity_label  CARDINAL  DATE  EVENT  FAC  ...  PRODUCT  QUANTITY  TIME  WORK_OF_ART
+category                                  ...                                      
+adaptation          48    62      0    2  ...        2        30     3            0
+impact              45    51      1    1  ...        0        18     5            0
+policy              17    69      7    1  ...        0        11     0            3
+science             28    74      0    5  ...        4        33     0            3
+
+[4 rows x 17 columns]
+
+Saved category heatmap to: outputs/spacy_entity_counts_by_category.png
+
+spaCy category-level metrics:
+        precision    recall  ...  predicted_entities  gold_texts
+policy   0.633803  0.652174  ...                  71          10
+
+[1 rows x 6 columns]
+
+Category analysis:
+The easiest category appears to be 'policy' with F1=0.643, while the hardest appears to be 'policy' with F1=0.643. Categories with more clear named entities such as organizations, countries, dates, and named locations are usually easier for NER. Categories with more descriptive or scientific language can be harder because important concepts may not be written as standard named entities.
+
+=== Challenge Tier 2: Entity Aggregation Pipeline ===
+
+Top entity co-occurrences:
+        entity_a         entity_b  cooccurrence_count
+0         Jordan         annually                   7
+1           2030           Jordan                   5
+2           2023             2030                   5
+3           2030              50%                   4
+4           2030         annually                   4
+5         Jordan            first                   4
+6           2030             2050                   3
+7     South Asia  the Middle East                   3
+8         Jordan  the Middle East                   3
+9           2023           annual                   3
+10          2023           Jordan                   3
+11          2023     North Africa                   3
+12          2030              45%                   3
+13          2023             UNEP                   3
+14     Jordanian         annually                   3
+15        Jordan     Saudi Arabia                   3
+16  Saudi Arabia  the Middle East                   3
+17          2023             2100                   3
+18          NASA  the Middle East                   2
+19          2021           annual                   2
+
+Co-occurrence adjacency matrix sample:
+                $1.2 billion  $1.27 trillion  ...  $12 billion  $12 million
+$1.2 billion               0               0  ...            1            0
+$1.27 trillion             0               0  ...            0            0
+$1.3 trillion              0               0  ...            0            0
+$1.8 billion               0               0  ...            0            0
+$1.8 trillion              0               0  ...            0            0
+$10 billion                0               0  ...            0            0
+$100 billion               0               0  ...            0            0
+$100 million               0               0  ...            0            0
+$12 billion                1               0  ...            0            0
+$12 million                0               0  ...            0            0
+
+[10 rows x 10 columns]
+
+Top TF-IDF-style entities by category:
+       category     canonical_entity  ...       idf  tfidf_score
+0    adaptation               Jordan  ...  1.000000    10.000000
+1    adaptation             annually  ...  1.000000     8.000000
+2    adaptation                 2024  ...  1.223144     7.338861
+3    adaptation                 2030  ...  1.000000     7.000000
+4    adaptation                  40%  ...  1.223144     6.115718
+265      impact           South Asia  ...  1.510826     6.043302
+266      impact      the Middle East  ...  1.510826     6.043302
+267      impact                 2023  ...  1.000000     6.000000
+268      impact               Jordan  ...  1.000000     6.000000
+269      impact                 1970  ...  1.510826     4.532477
+497      policy                 2030  ...  1.000000    14.000000
+498      policy  the Paris Agreement  ...  1.916291     9.581454
+499      policy                 2022  ...  1.510826     7.554128
+500      policy        $1.3 trillion  ...  1.916291     5.748872
+501      policy               annual  ...  1.000000     5.000000
+717     science      the Middle East  ...  1.510826     7.554128
+718     science                  CO2  ...  1.510826     6.043302
+719     science                 2023  ...  1.000000     6.000000
+720     science               Arctic  ...  1.916291     5.748872
+721     science                 NASA  ...  1.916291     5.748872
+
+[20 rows x 6 columns]
+
+Saved entity network to: outputs/spacy_entity_network.png
+
+=== Challenge Tier 3: Custom NER Evaluator ===
+
+spaCy comprehensive micro metrics:
+{'exact': {'precision': 0.6338028169014085, 'recall': 0.6521739130434783, 'f1': 0.6428571428571428, 'tp_score': 45.0, 'predicted_total': 71, 'gold_total': 69}, 'partial': {'precision': 0.3345176339147435, 'recall': 0.3442137972166201, 'f1': 0.3392964572563827, 'tp_score': 23.750752007946787, 'predicted_total': 71, 'gold_total': 69}, 'type_agnostic': {'precision': 0.19718309859154928, 'recall': 0.2028985507246377, 'f1': 0.2, 'tp_score': 14.0, 'predicted_total': 71, 'gold_total': 69}}
+
+spaCy comprehensive macro metrics:
+{'exact': {'precision': 0.6078571428571429, 'recall': 0.6288888888888888, 'f1': 0.6171751777634129, 'texts_evaluated': 10}, 'partial': {'precision': 0.3256156484906064, 'recall': 0.3305235177899231, 'f1': 0.3275681383071959, 'texts_evaluated': 10}, 'type_agnostic': {'precision': 0.20464285714285718, 'recall': 0.20920634920634923, 'f1': 0.20667313079077781, 'texts_evaluated': 10}}
+
+spaCy error counts:
+{'type_error': 5, 'boundary_error': 7, 'missing_entity': 12, 'spurious_entity': 1145}

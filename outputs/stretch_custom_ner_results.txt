@@ -1,0 +1,186 @@
+Dataset shape: (200, 5)
+Languages: {'en': 132, 'ar': 68}
+Categories: {'adaptation': 61, 'science': 50, 'impact': 46, 'policy': 43}
+
+=== Step 1: Pattern Inventory ===
+           label                             pattern  match_count example_text_ids
+       AGREEMENT                     Paris Agreement            6       [5, 7, 10]
+       THRESHOLD                           2 degrees            5     [14, 30, 34]
+   CLIMATE_EVENT                               COP28            4      [2, 10, 48]
+       AGREEMENT                   Montreal Protocol            2         [52, 74]
+   CLIMATE_EVENT                               COP26            2        [47, 190]
+          POLICY                                NDCs            2          [5, 71]
+          POLICY  Nationally Determined Contribution            2          [5, 47]
+       AGREEMENT               Global Methane Pledge            1            [190]
+       AGREEMENT                    Kigali Amendment            1             [52]
+   CLIMATE_EVENT      Bonn Climate Change Conference            1              [5]
+   CLIMATE_EVENT                               COP27            1             [48]
+   CLIMATE_EVENT             Climate Ambition Summit            1              [7]
+    CLIMATE_FUND                  Green Climate Fund            1              [9]
+    CLIMATE_FUND                Loss and Damage Fund            1             [48]
+          POLICY Nationally Determined Contributions            1              [5]
+POLICY_MECHANISM  Carbon Border Adjustment Mechanism            1              [6]
+          REPORT               Adaptation Gap Report            1             [38]
+          REPORT                Emissions Gap Report            1             [71]
+          REPORT           Global Methane Assessment            1            [123]
+          REPORT             Sixth Assessment Report            1              [1]
+       THRESHOLD                 1.5 degrees Celsius            1              [1]
+       THRESHOLD                          2°C target            0               []
+
+Saved pattern inventory to: outputs/stretch_pattern_inventory.csv
+
+=== Step 2: Build NER Systems ===
+
+Running system: base_spacy
+Total entities: 1202
+Saved entities to: outputs/stretch_entities_base_spacy.csv
+
+Running system: ruler_before_ner
+Total entities: 1212
+Saved entities to: outputs/stretch_entities_ruler_before_ner.csv
+
+Running system: ruler_after_ner
+Total entities: 1211
+Saved entities to: outputs/stretch_entities_ruler_after_ner.csv
+
+=== Entity Counts by System and Label ===
+          system     entity_label  count
+      base_spacy             DATE    256
+      base_spacy              ORG    184
+      base_spacy              GPE    165
+      base_spacy         CARDINAL    138
+      base_spacy          PERCENT    103
+      base_spacy              LOC     93
+      base_spacy         QUANTITY     92
+      base_spacy            MONEY     63
+      base_spacy           PERSON     36
+      base_spacy             NORP     21
+      base_spacy          ORDINAL      9
+      base_spacy              FAC      9
+      base_spacy            EVENT      8
+      base_spacy             TIME      8
+      base_spacy      WORK_OF_ART      6
+      base_spacy          PRODUCT      6
+      base_spacy              LAW      5
+ ruler_after_ner             DATE    256
+ ruler_after_ner              ORG    184
+ ruler_after_ner              GPE    165
+ ruler_after_ner         CARDINAL    138
+ ruler_after_ner          PERCENT    103
+ ruler_after_ner              LOC     93
+ ruler_after_ner         QUANTITY     92
+ ruler_after_ner            MONEY     63
+ ruler_after_ner           PERSON     36
+ ruler_after_ner             NORP     21
+ ruler_after_ner          ORDINAL      9
+ ruler_after_ner              FAC      9
+ ruler_after_ner            EVENT      8
+ ruler_after_ner             TIME      8
+ ruler_after_ner      WORK_OF_ART      6
+ ruler_after_ner          PRODUCT      6
+ ruler_after_ner    CLIMATE_EVENT      5
+ ruler_after_ner              LAW      5
+ ruler_after_ner           POLICY      3
+ ruler_after_ner     CLIMATE_FUND      1
+ruler_before_ner             DATE    256
+ruler_before_ner              ORG    176
+ruler_before_ner              GPE    164
+ruler_before_ner         CARDINAL    138
+ruler_before_ner          PERCENT    103
+ruler_before_ner              LOC     93
+ruler_before_ner         QUANTITY     87
+ruler_before_ner            MONEY     63
+ruler_before_ner           PERSON     36
+ruler_before_ner             NORP     21
+ruler_before_ner        AGREEMENT     11
+ruler_before_ner    CLIMATE_EVENT      9
+ruler_before_ner          ORDINAL      9
+ruler_before_ner              FAC      8
+ruler_before_ner             TIME      8
+ruler_before_ner          PRODUCT      6
+ruler_before_ner        THRESHOLD      5
+ruler_before_ner           REPORT      4
+ruler_before_ner           POLICY      4
+ruler_before_ner      WORK_OF_ART      4
+ruler_before_ner     CLIMATE_FUND      2
+ruler_before_ner            EVENT      2
+ruler_before_ner              LAW      2
+ruler_before_ner POLICY_MECHANISM      1
+
+Saved label counts to: outputs/stretch_entity_counts_by_system.csv
+
+=== Custom Label Counts ===
+          system     custom_label  count
+      base_spacy        AGREEMENT      0
+      base_spacy    CLIMATE_EVENT      0
+      base_spacy     CLIMATE_FUND      0
+      base_spacy           POLICY      0
+      base_spacy POLICY_MECHANISM      0
+      base_spacy           REPORT      0
+      base_spacy        THRESHOLD      0
+ruler_before_ner        AGREEMENT     11
+ruler_before_ner    CLIMATE_EVENT      9
+ruler_before_ner     CLIMATE_FUND      2
+ruler_before_ner           POLICY      4
+ruler_before_ner POLICY_MECHANISM      1
+ruler_before_ner           REPORT      4
+ruler_before_ner        THRESHOLD      5
+ ruler_after_ner        AGREEMENT      0
+ ruler_after_ner    CLIMATE_EVENT      5
+ ruler_after_ner     CLIMATE_FUND      1
+ ruler_after_ner           POLICY      3
+ ruler_after_ner POLICY_MECHANISM      0
+ ruler_after_ner           REPORT      0
+ ruler_after_ner        THRESHOLD      0
+
+Saved custom label counts to: outputs/stretch_custom_label_counts.csv
+
+=== Standard-Label Evaluation on Gold Subset ===
+          system  precision   recall       f1  true_positives  predicted_standard_entities  gold_standard_entities  f1_delta_vs_base  precision_delta_vs_base  recall_delta_vs_base
+      base_spacy   0.661765 0.652174 0.656934              45                           68                      69          0.000000                 0.000000                   0.0
+ruler_before_ner   0.762712 0.652174 0.703125              45                           59                      69          0.046191                 0.100947                   0.0
+ ruler_after_ner   0.661765 0.652174 0.656934              45                           68                      69          0.000000                 0.000000                   0.0
+
+Saved standard-label metrics to: outputs/stretch_standard_label_metrics.csv
+
+=== Custom Rule Examples ===
+          system  text_id   category                         entity_text     entity_label
+ruler_before_ner        5     policy                     Paris Agreement        AGREEMENT
+ruler_before_ner        7     policy                     Paris Agreement        AGREEMENT
+ruler_before_ner       10     policy                     Paris Agreement        AGREEMENT
+ruler_before_ner       52     policy                    Kigali Amendment        AGREEMENT
+ruler_before_ner       52     policy                   Montreal Protocol        AGREEMENT
+ruler_before_ner        2     policy                               COP28    CLIMATE_EVENT
+ruler_before_ner        5     policy      Bonn Climate Change Conference    CLIMATE_EVENT
+ruler_before_ner        7     policy             Climate Ambition Summit    CLIMATE_EVENT
+ruler_before_ner       10     policy                               COP28    CLIMATE_EVENT
+ruler_before_ner       47     policy                               COP26    CLIMATE_EVENT
+ruler_before_ner        9     policy                  Green Climate Fund     CLIMATE_FUND
+ruler_before_ner       48     policy                Loss and Damage Fund     CLIMATE_FUND
+ruler_before_ner        5     policy nationally determined contributions           POLICY
+ruler_before_ner        5     policy                                NDCs           POLICY
+ruler_before_ner       47     policy  Nationally Determined Contribution           POLICY
+ruler_before_ner       71     policy                                NDCs           POLICY
+ruler_before_ner        6     policy  Carbon Border Adjustment Mechanism POLICY_MECHANISM
+ruler_before_ner        1     policy             Sixth Assessment Report           REPORT
+ruler_before_ner       38 adaptation               Adaptation Gap Report           REPORT
+ruler_before_ner       71     policy                Emissions Gap Report           REPORT
+ruler_before_ner      123    science           Global Methane Assessment           REPORT
+ruler_before_ner        1     policy                 1.5 degrees Celsius        THRESHOLD
+ruler_before_ner       14    science                           2 degrees        THRESHOLD
+ruler_before_ner       30     impact                           2 degrees        THRESHOLD
+ruler_before_ner       34     impact                           2 degrees        THRESHOLD
+ruler_before_ner       76    science                           2 degrees        THRESHOLD
+ ruler_after_ner        2     policy                               COP28    CLIMATE_EVENT
+ ruler_after_ner       10     policy                               COP28    CLIMATE_EVENT
+ ruler_after_ner       47     policy                               COP26    CLIMATE_EVENT
+ ruler_after_ner       48     policy                               COP28    CLIMATE_EVENT
+ ruler_after_ner      190     policy                               COP26    CLIMATE_EVENT
+ ruler_after_ner       48     policy                Loss and Damage Fund     CLIMATE_FUND
+ ruler_after_ner        5     policy nationally determined contributions           POLICY
+ ruler_after_ner        5     policy                                NDCs           POLICY
+ ruler_after_ner       71     policy                                NDCs           POLICY
+
+Saved custom rule examples to: outputs/stretch_custom_rule_examples.csv
+
+Done.
