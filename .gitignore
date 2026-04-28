@@ -1,9 +1,15 @@
 __pycache__/
 *.pyc
+
 .env
 .venv/
+
 .pytest_cache/
 .cache/
 huggingface/
+
+.vscode/
+
 *.png
 *.jpg
+*.jpeg

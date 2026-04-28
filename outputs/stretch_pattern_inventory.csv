@@ -1,0 +1,23 @@
+label,pattern,match_count,example_text_ids
+AGREEMENT,Paris Agreement,6,"[5, 7, 10]"
+THRESHOLD,2 degrees,5,"[14, 30, 34]"
+CLIMATE_EVENT,COP28,4,"[2, 10, 48]"
+AGREEMENT,Montreal Protocol,2,"[52, 74]"
+CLIMATE_EVENT,COP26,2,"[47, 190]"
+POLICY,NDCs,2,"[5, 71]"
+POLICY,Nationally Determined Contribution,2,"[5, 47]"
+AGREEMENT,Global Methane Pledge,1,[190]
+AGREEMENT,Kigali Amendment,1,[52]
+CLIMATE_EVENT,Bonn Climate Change Conference,1,[5]
+CLIMATE_EVENT,COP27,1,[48]
+CLIMATE_EVENT,Climate Ambition Summit,1,[7]
+CLIMATE_FUND,Green Climate Fund,1,[9]
+CLIMATE_FUND,Loss and Damage Fund,1,[48]
+POLICY,Nationally Determined Contributions,1,[5]
+POLICY_MECHANISM,Carbon Border Adjustment Mechanism,1,[6]
+REPORT,Adaptation Gap Report,1,[38]
+REPORT,Emissions Gap Report,1,[71]
+REPORT,Global Methane Assessment,1,[123]
+REPORT,Sixth Assessment Report,1,[1]
+THRESHOLD,1.5 degrees Celsius,1,[1]
+THRESHOLD,2°C target,0,[]
