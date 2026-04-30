@@ -1,0 +1,15 @@
+﻿text_id,language,model,entity_text,entity_label,start_char,end_char,score
+9,en,spaCy:xx_ent_wiki_sm,Green Climate Fund,ORG,4,22,
+9,en,spaCy:xx_ent_wiki_sm,Songdo,LOC,109,115,
+9,en,spaCy:xx_ent_wiki_sm,South Korea,LOC,117,128,
+9,en,spaCy:xx_ent_wiki_sm,Bangladesh,LOC,201,211,
+9,en,spaCy:xx_ent_wiki_sm,Congo Basin,LOC,259,270,
+9,en,spaCy:xx_ent_wiki_sm,Jordan,LOC,316,322,
+9,en,HF:Davlan/xlm-roberta-base-wikiann-ner,Green Climate Fund,ORG,4,22,0.9998464584350586
+9,en,HF:Davlan/xlm-roberta-base-wikiann-ner,Songdo,LOC,109,115,0.9980596303939819
+9,en,HF:Davlan/xlm-roberta-base-wikiann-ner,South Korea,LOC,117,128,0.8208848237991333
+9,en,HF:Davlan/xlm-roberta-base-wikiann-ner,Bangladesh,LOC,201,211,0.9941241145133972
+9,en,HF:Davlan/xlm-roberta-base-wikiann-ner,Congo Basin,LOC,259,270,0.9908321499824524
+9,en,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan,LOC,316,322,0.9953014850616455
+79,ar,spaCy:xx_ent_wiki_sm,وأكد التقرير,PER,159,171,
+79,ar,HF:Davlan/xlm-roberta-base-wikiann-ner,الهيئة الحكومية الدولية المعنية بتغير المناخ,ORG,6,50,0.9389200210571289

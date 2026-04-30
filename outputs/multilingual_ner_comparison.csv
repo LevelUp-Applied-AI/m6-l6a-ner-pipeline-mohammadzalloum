@@ -1,0 +1,5 @@
+﻿language,model,label_schema,texts_processed,total_words,total_entities,avg_entities_per_doc,entities_per_100_words,no_entity_texts,no_entity_rate,entity_type_counts,example_entities
+ar,HF:Davlan/xlm-roberta-base-wikiann-ner,native_labels,20,957,70,3.5,7.31,0,0.0,LOC=38; ORG=31; PER=1,اليونان (LOC) | المنتدى العربي للبيئة والتنمية (ORG) | دان (PER)
+ar,spaCy:xx_ent_wiki_sm,native_labels,20,957,20,1.0,2.09,7,0.35,PER=9; MISC=6; ORG=4; LOC=1,وأكد التقرير (PER) | وتهدف (MISC) | دول (ORG)
+en,HF:Davlan/xlm-roberta-base-wikiann-ner,native_labels,20,1269,99,4.95,7.8,0,0.0,LOC=64; ORG=34; PER=1,Saudi Arabia (LOC) | Earth's Future (ORG) | support (PER)
+en,spaCy:xx_ent_wiki_sm,native_labels,20,1269,105,5.25,8.27,0,0.0,LOC=55; MISC=21; ORG=20; PER=9,Songdo (LOC) | Hurricane Otis (MISC) | Green Climate Fund (ORG)

@@ -1,0 +1,295 @@
+﻿text_id,language,category,source,model,entity_text,entity_label,start_char,end_char,score,text_length_words
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,المملكة الأردنية,LOC,7,23,0.6746382117271423,44
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,الهاشمية,ORG,24,32,0.7725579142570496,44
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,محطة طاقة شمسية,ORG,33,48,0.9709051251411438,44
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,المفرق,LOC,70,76,0.814307689666748,44
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,الأردن,LOC,160,166,0.9993971586227417,44
+111,ar,adaptation,خطة التكيف المناخي لسنغافورة,HF:Davlan/xlm-roberta-base-wikiann-ner,استراتيجية التكيف الوطنية لسنغافورة,ORG,6,41,0.9916536808013916,39
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,spaCy:xx_ent_wiki_sm,ويستهدف,PER,108,115,,45
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,spaCy:xx_ent_wiki_sm,درجات مئوية,PER,155,166,,45
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,مدينة المدينة المنورة,LOC,6,27,0.9996687173843384,45
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,التبريد الحضري,ORG,35,49,0.7160187363624573,45
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,منطقة الحج المركزية,ORG,170,189,0.7379713654518127,45
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,المملكة العربية السعودية,LOC,212,236,0.9993855953216553,45
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,spaCy:xx_ent_wiki_sm,ونجحت,PER,255,260,,51
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,HF:Davlan/xlm-roberta-base-wikiann-ner,المملكة,LOC,6,13,0.6056123375892639,51
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,HF:Davlan/xlm-roberta-base-wikiann-ner,الأردنية الهاشمية,ORG,14,31,0.7879626750946045,51
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,HF:Davlan/xlm-roberta-base-wikiann-ner,محمية الأزرق المائية,LOC,79,99,0.9967563152313232,51
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,HF:Davlan/xlm-roberta-base-wikiann-ner,الجمعية الملكية لحماية الطبيعة,ORG,113,143,0.9999029040336609,51
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,دولة,LOC,6,10,0.5232508182525635,49
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,الإمارات العربية المتحدة,LOC,11,35,0.9229249954223633,49
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,محطة براكة للطاقة النووية,ORG,36,61,0.9984145164489746,49
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,ث,ORG,213,214,0.8657016158103943,49
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,اني أكسيد الكربون,ORG,214,231,0.7840312719345093,49
+94,ar,impact,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,البحر الميت,LOC,4,15,0.9995885491371155,51
+94,ar,impact,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,نهر الأردن,LOC,150,160,0.990384042263031,51
+95,ar,impact,جريدة الأردن تايمز,spaCy:xx_ent_wiki_sm,وأفادت دائرة,PER,132,144,,51
+95,ar,impact,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,دائرة الأرصاد الجوية الأردنية,ORG,139,168,0.9998030066490173,51
+97,ar,impact,تقرير إسناد الطقس العالمي,spaCy:xx_ent_wiki_sm,وقُدرت,MISC,144,150,,43
+97,ar,impact,تقرير إسناد الطقس العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,درنة بليبيا,LOC,28,39,0.9802276492118835,43
+97,ar,impact,تقرير إسناد الطقس العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,دان,PER,120,123,0.6460248231887817,43
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,spaCy:xx_ent_wiki_sm,وتحمل,LOC,73,78,,49
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,HF:Davlan/xlm-roberta-base-wikiann-ner,الصحراء الكبرى,LOC,34,48,0.9418693780899048,49
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,HF:Davlan/xlm-roberta-base-wikiann-ner,البحر الأبيض المتوسط,LOC,108,128,0.9998909831047058,49
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,HF:Davlan/xlm-roberta-base-wikiann-ner,جنوب أوروبا,LOC,133,144,0.9994058012962341,49
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,HF:Davlan/xlm-roberta-base-wikiann-ner,شمال الدول الإسكندنافية,LOC,268,291,0.9892539381980896,49
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,spaCy:xx_ent_wiki_sm,وتجاوزت درجات,PER,114,127,,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,spaCy:xx_ent_wiki_sm,جديداً.,MISC,188,195,,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,حوض البحر الأبيض المتوسط,LOC,24,48,0.9998369216918945,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,اليونان,LOC,83,90,0.9999020099639893,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,وترك,LOC,91,95,0.999491810798645,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,يا,LOC,95,97,0.7023071646690369,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,جز,LOC,101,103,0.9981399774551392,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,ائر,LOC,103,106,0.5840453505516052,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,تون,LOC,108,111,0.9965699911117554,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,س,LOC,111,112,0.6845536828041077,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,أو,LOC,179,181,0.7463201880455017,48
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,تشريد,LOC,213,218,0.9965718984603882,48
+79,ar,policy,ملخص تقرير الهيئة الحكومية الدولية,spaCy:xx_ent_wiki_sm,وأكد التقرير,PER,159,171,,56
+79,ar,policy,ملخص تقرير الهيئة الحكومية الدولية,HF:Davlan/xlm-roberta-base-wikiann-ner,الهيئة الحكومية الدولية المعنية بتغير المناخ,ORG,6,50,0.9389200210571289,56
+81,ar,policy,نشرة السياسات المناخية,HF:Davlan/xlm-roberta-base-wikiann-ner,مؤتمر الأطراف الثامن والعشرين,ORG,3,32,0.999485969543457,48
+81,ar,policy,نشرة السياسات المناخية,HF:Davlan/xlm-roberta-base-wikiann-ner,دبي,LOC,44,47,0.9997922778129578,48
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,spaCy:xx_ent_wiki_sm,وتهدف,MISC,159,164,,44
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,spaCy:xx_ent_wiki_sm,دول,ORG,260,263,,44
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,HF:Davlan/xlm-roberta-base-wikiann-ner,الاتحاد الأوروبي,ORG,5,21,0.9998397827148438,44
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,HF:Davlan/xlm-roberta-base-wikiann-ner,تعديل,ORG,27,32,0.9172850251197815,44
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,HF:Davlan/xlm-roberta-base-wikiann-ner,حدود الكربون,ORG,33,45,0.979032039642334,44
+166,ar,policy,تقرير المنتدى العربي للبيئة والتنمية,HF:Davlan/xlm-roberta-base-wikiann-ner,المنتدى العربي للبيئة والتنمية,ORG,5,35,0.9999197125434875,43
+166,ar,policy,تقرير المنتدى العربي للبيئة والتنمية,HF:Davlan/xlm-roberta-base-wikiann-ner,البيئة العربية,LOC,59,73,0.8322532176971436,43
+166,ar,policy,تقرير المنتدى العربي للبيئة والتنمية,HF:Davlan/xlm-roberta-base-wikiann-ner,العربية,LOC,122,129,0.7541950941085815,43
+166,ar,policy,تقرير المنتدى العربي للبيئة والتنمية,HF:Davlan/xlm-roberta-base-wikiann-ner,اقتصاد أخضر دائري,LOC,192,209,0.9823007583618164,43
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,spaCy:xx_ent_wiki_sm,وأُعلن,MISC,108,114,,46
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,spaCy:xx_ent_wiki_sm,كما,ORG,225,228,,46
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,مدينة الرياض,LOC,8,20,0.9987567663192749,46
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,المؤتمر السعودي الأول,ORG,21,42,0.9104035496711731,46
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,المنطقة العربية,LOC,208,223,0.8063167929649353,46
+86,ar,science,مجلة نيتشر لتغير المناخ,spaCy:xx_ent_wiki_sm,وساهمت,PER,187,193,,51
+86,ar,science,مجلة نيتشر لتغير المناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,معهد غودارد لدراسات الفضاء,ORG,14,40,0.9998038411140442,51
+86,ar,science,مجلة نيتشر لتغير المناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,ناسا,ORG,55,59,0.9977026581764221,51
+86,ar,science,مجلة نيتشر لتغير المناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,جنوب أوروبا,LOC,262,273,0.999601423740387,51
+86,ar,science,مجلة نيتشر لتغير المناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,شمال أفريقيا,LOC,275,287,0.9966039657592773,51
+86,ar,science,مجلة نيتشر لتغير المناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,شرق الأوسط,LOC,291,301,0.9914904236793518,51
+91,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,المنظمة العالمية للأرصاد الجوية,ORG,5,36,0.9998827576637268,47
+91,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,مستوى سطح البحر العالمي,ORG,49,72,0.8785597681999207,47
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,spaCy:xx_ent_wiki_sm,ضعف,ORG,85,88,,52
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,spaCy:xx_ent_wiki_sm,أُطلق,MISC,205,210,,52
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,HF:Davlan/xlm-roberta-base-wikiann-ner,لاف,ORG,24,27,0.4793620705604553,52
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,HF:Davlan/xlm-roberta-base-wikiann-ner,الثورة الصناعية,ORG,102,117,0.9901539087295532,52
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,HF:Davlan/xlm-roberta-base-wikiann-ner,القمر الاصطناعي,ORG,174,189,0.999151349067688,52
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,HF:Davlan/xlm-roberta-base-wikiann-ner,ميثان سات,ORG,190,199,0.975553035736084,52
+135,ar,science,تقرير المناخ الإقليمي,spaCy:xx_ent_wiki_sm,درجات الحرارة,PER,120,133,,54
+135,ar,science,تقرير المناخ الإقليمي,spaCy:xx_ent_wiki_sm,وتحذر الدراسات,PER,232,246,,54
+135,ar,science,تقرير المناخ الإقليمي,HF:Davlan/xlm-roberta-base-wikiann-ner,منطقة الشرق الأوسط,LOC,25,43,0.9762790203094482,54
+135,ar,science,تقرير المناخ الإقليمي,HF:Davlan/xlm-roberta-base-wikiann-ner,شمال أفريقيا,LOC,45,57,0.9688838720321655,54
+135,ar,science,تقرير المناخ الإقليمي,HF:Davlan/xlm-roberta-base-wikiann-ner,المتوسط العالمي,ORG,82,97,0.9191386699676514,54
+135,ar,science,تقرير المناخ الإقليمي,HF:Davlan/xlm-roberta-base-wikiann-ner,الخليج العربي,LOC,262,275,0.9978256225585938,54
+178,ar,science,تقرير حالة المناخ العالمي,spaCy:xx_ent_wiki_sm,وثّق,ORG,0,4,,46
+178,ar,science,تقرير حالة المناخ العالمي,spaCy:xx_ent_wiki_sm,وسُجلت,MISC,194,200,,46
+178,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,المنظمة العالمية للأرصاد الجوية,ORG,11,42,0.9998629689216614,46
+178,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,درجة الحرارة,ORG,114,126,0.6644459366798401,46
+178,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,الثورة الصناعية,ORG,151,166,0.9965816736221313,46
+178,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,المتوسط العالمي,ORG,259,274,0.9643852710723877,46
+39,en,adaptation,European Adaptation Case Studies,spaCy:xx_ent_wiki_sm,Netherlands,LOC,4,15,,60
+39,en,adaptation,European Adaptation Case Studies,spaCy:xx_ent_wiki_sm,Rhine,LOC,129,134,,60
+39,en,adaptation,European Adaptation Case Studies,spaCy:xx_ent_wiki_sm,Meuse,LOC,136,141,,60
+39,en,adaptation,European Adaptation Case Studies,spaCy:xx_ent_wiki_sm,IJssel,LOC,147,153,,60
+39,en,adaptation,European Adaptation Case Studies,spaCy:xx_ent_wiki_sm,Europe,LOC,388,394,,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,Netherlands,LOC,4,15,0.9986382126808167,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,Room for the River program,ORG,17,43,0.8966159820556641,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,Rhine,LOC,129,134,0.8264066576957703,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,Meuse,LOC,136,141,0.8884621858596802,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,I,LOC,147,148,0.8948749899864197,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,IJssel river,LOC,147,159,0.8292407393455505,60
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,Europe,LOC,388,394,0.9127832651138306,60
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,Great Green Wall of the Sahara,LOC,4,34,,64
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,Sahel Initiative,ORG,39,55,,64
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,Senegal,LOC,158,165,,64
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,Djibouti,LOC,169,177,,64
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,UNEP,ORG,245,249,,64
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,African,MISC,281,288,,64
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,One Planet Summit,MISC,364,381,,64
+66,en,adaptation,UNEP Great Green Wall Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Great Green Wall of the Sahara and Sahel Initiative,ORG,4,55,0.9997643232345581,64
+66,en,adaptation,UNEP Great Green Wall Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Senegal,LOC,158,165,0.9843272566795349,64
+66,en,adaptation,UNEP Great Green Wall Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Djibouti,LOC,169,177,0.9742822051048279,64
+66,en,adaptation,UNEP Great Green Wall Report,HF:Davlan/xlm-roberta-base-wikiann-ner,African na,LOC,281,291,0.9175683259963989,64
+66,en,adaptation,UNEP Great Green Wall Report,HF:Davlan/xlm-roberta-base-wikiann-ner,One Planet Summit,ORG,364,381,0.9997493624687195,64
+70,en,adaptation,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Middle Eastern,LOC,29,43,,55
+70,en,adaptation,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Celsius,PER,98,105,,55
+70,en,adaptation,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Amman,PER,131,136,,55
+70,en,adaptation,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Riyadh,LOC,138,144,,55
+70,en,adaptation,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Baghdad,LOC,150,157,,55
+70,en,adaptation,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Urban heat island effects,ORG,0,25,0.9918555617332458,55
+70,en,adaptation,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Middle East,LOC,29,40,0.9754500985145569,55
+70,en,adaptation,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Amman,LOC,131,136,0.9642679691314697,55
+70,en,adaptation,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Riyadh,LOC,138,144,0.9914988279342651,55
+70,en,adaptation,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Baghdad,LOC,150,157,0.9893225431442261,55
+171,en,adaptation,AgriTech Climate Report,spaCy:xx_ent_wiki_sm,Jordan Valley,LOC,205,218,,66
+171,en,adaptation,AgriTech Climate Report,spaCy:xx_ent_wiki_sm,IoT,MISC,243,246,,66
+171,en,adaptation,AgriTech Climate Report,spaCy:xx_ent_wiki_sm,GIZ,ORG,425,428,,66
+171,en,adaptation,AgriTech Climate Report,spaCy:xx_ent_wiki_sm,Jordanian Ministry of Agriculture,ORG,437,470,,66
+171,en,adaptation,AgriTech Climate Report,HF:Davlan/xlm-roberta-base-wikiann-ner,support,PER,107,114,0.5227399468421936,66
+171,en,adaptation,AgriTech Climate Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan Valley,LOC,205,218,0.9929951429367065,66
+171,en,adaptation,AgriTech Climate Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordanian Ministry of Agriculture,ORG,437,470,0.9960129857063293,66
+187,en,adaptation,India Solar Energy Report,spaCy:xx_ent_wiki_sm,India,LOC,0,5,,62
+187,en,adaptation,India Solar Energy Report,spaCy:xx_ent_wiki_sm,National Solar Mission,MISC,8,30,,62
+187,en,adaptation,India Solar Energy Report,spaCy:xx_ent_wiki_sm,Bhadla Solar Park,LOC,130,147,,62
+187,en,adaptation,India Solar Energy Report,spaCy:xx_ent_wiki_sm,Rajasthan,LOC,151,160,,62
+187,en,adaptation,India Solar Energy Report,spaCy:xx_ent_wiki_sm,India,LOC,268,273,,62
+187,en,adaptation,India Solar Energy Report,HF:Davlan/xlm-roberta-base-wikiann-ner,India,LOC,0,5,0.756402850151062,62
+187,en,adaptation,India Solar Energy Report,HF:Davlan/xlm-roberta-base-wikiann-ner,National Solar Mission,ORG,8,30,0.9994620680809021,62
+187,en,adaptation,India Solar Energy Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Bhadla Solar Park,ORG,130,147,0.9908527731895447,62
+187,en,adaptation,India Solar Energy Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Rajasthan,LOC,151,160,0.9892787337303162,62
+23,en,impact,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Dead Sea,LOC,4,12,,64
+23,en,impact,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Jordan River,LOC,176,188,,64
+23,en,impact,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Sinkholes,LOC,262,271,,64
+23,en,impact,MENA Environmental Report,spaCy:xx_ent_wiki_sm,Jordan,LOC,390,396,,64
+23,en,impact,MENA Environmental Report,spaCy:xx_ent_wiki_sm,West Bank,ORG,405,414,,64
+23,en,impact,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Dead Sea,LOC,4,12,0.9985089302062988,64
+23,en,impact,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan River basin,LOC,176,194,0.9159426093101501,64
+23,en,impact,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan,LOC,390,396,0.9936874508857727,64
+23,en,impact,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,West Bank,LOC,405,414,0.994009256362915,64
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,Hurricane Otis,MISC,0,14,,62
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,Acapulco,LOC,34,42,,62
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,Mexico,LOC,44,50,,62
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,Category 5,MISC,76,86,,62
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,Category,LOC,189,197,,62
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,Eastern Pacific,LOC,271,286,,62
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,Hurricane Otis,ORG,0,14,0.9243261218070984,62
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,"Acapulco, Mexico",LOC,34,50,0.9965260624885559,62
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,Category 5 storm,ORG,76,92,0.9179134368896484,62
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,tropical storm,ORG,171,185,0.9849662780761719,62
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,Category 5,ORG,189,199,0.9297336339950562,62
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,Eastern Pacific,LOC,271,286,0.9979307055473328,62
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,Sahel,LOC,4,9,,61
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,Africa,LOC,20,26,,61
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,Burkina Faso,LOC,233,245,,61
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,Mali,LOC,247,251,,61
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,Niger,LOC,253,258,,61
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,Chad,LOC,264,268,,61
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,World Food Programme,MISC,274,294,,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,Sahel region,LOC,4,16,0.9974901676177979,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,Africa,LOC,20,26,0.8494316339492798,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,Burkina Faso,LOC,233,245,0.9987393617630005,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,Mali,LOC,247,251,0.9980825185775757,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,Niger,LOC,253,258,0.9925053715705872,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,Chad,LOC,264,268,0.8734989166259766,61
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,World Food Programme,ORG,274,294,0.999866783618927,61
+157,en,impact,Global Biodiversity Monitor,spaCy:xx_ent_wiki_sm,Global Biodiversity Framework Monitor,MISC,4,41,,63
+157,en,impact,Global Biodiversity Monitor,spaCy:xx_ent_wiki_sm,Coral,PER,219,224,,63
+157,en,impact,Global Biodiversity Monitor,spaCy:xx_ent_wiki_sm,Mediterranean Sea,LOC,307,324,,63
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,Global Biodiversity Framework Monitor,ORG,4,41,0.9997859001159668,63
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,shark and ray,LOC,63,76,0.6221325397491455,63
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,Coral,LOC,219,224,0.4586136043071747,63
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,Mediterranean Sea,LOC,307,324,0.996034562587738,63
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,International Labour Organization,ORG,4,37,,67
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,Middle East,ORG,267,278,,67
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,Qatar,LOC,347,352,,67
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,UAE,LOC,358,361,,67
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,Saudi Arabia,LOC,367,379,,67
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,Jordan,PER,381,387,,67
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,International Labour Organization,ORG,4,37,0.9998371005058289,67
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Middle East,LOC,267,278,0.9997426271438599,67
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Qatar,LOC,347,352,0.9995160102844238,67
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,UAE,LOC,358,361,0.9669768810272217,67
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Saudi Arabia,LOC,367,379,0.999869704246521,67
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan,LOC,381,387,0.9997878670692444,67
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,Green Climate Fund,ORG,4,22,,61
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,Songdo,LOC,109,115,,61
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,South Korea,LOC,117,128,,61
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,Bangladesh,LOC,201,211,,61
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,Congo Basin,LOC,259,270,,61
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,Jordan,LOC,316,322,,61
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,Green Climate Fund,ORG,4,22,0.9998464584350586,61
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,Songdo,LOC,109,115,0.9980596303939819,61
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,South Korea,LOC,117,128,0.8208848237991333,61
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,Bangladesh,LOC,201,211,0.9941241145133972,61
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,Congo Basin,LOC,259,270,0.9908321499824524,61
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan,LOC,316,322,0.9953014850616455,61
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,Kigali Amendment,LOC,4,20,,59
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,Montreal Protocol,MISC,28,45,,59
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,HFCs,MISC,172,176,,59
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,CO2,MISC,261,264,,59
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,UNEP,ORG,266,270,,59
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,Kigali Amendment,LOC,313,329,,59
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,Celsius,PER,359,366,,59
+52,en,policy,UNEP Ozone Secretariat,HF:Davlan/xlm-roberta-base-wikiann-ner,Kigali Amendment to,ORG,4,23,0.9836259484291077,59
+52,en,policy,UNEP Ozone Secretariat,HF:Davlan/xlm-roberta-base-wikiann-ner,Montreal Protocol,ORG,28,45,0.8797037601470947,59
+52,en,policy,UNEP Ozone Secretariat,HF:Davlan/xlm-roberta-base-wikiann-ner,UN,ORG,266,268,0.5932945609092712,59
+71,en,policy,UNEP Emissions Gap Report,spaCy:xx_ent_wiki_sm,UNEP,ORG,0,4,,66
+71,en,policy,UNEP Emissions Gap Report,spaCy:xx_ent_wiki_sm,Emissions Gap Report 2023,MISC,7,32,,66
+71,en,policy,UNEP Emissions Gap Report,spaCy:xx_ent_wiki_sm,Celsius,PER,107,114,,66
+71,en,policy,UNEP Emissions Gap Report,spaCy:xx_ent_wiki_sm,NDCs,MISC,192,196,,66
+71,en,policy,UNEP Emissions Gap Report,spaCy:xx_ent_wiki_sm,Paris Agreement,ORG,247,262,,66
+71,en,policy,UNEP Emissions Gap Report,HF:Davlan/xlm-roberta-base-wikiann-ner,UNEP,ORG,0,4,0.7044030427932739,66
+71,en,policy,UNEP Emissions Gap Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Emissions Gap Report,ORG,7,27,0.9951682090759277,66
+71,en,policy,UNEP Emissions Gap Report,HF:Davlan/xlm-roberta-base-wikiann-ner,Paris Agreement,ORG,247,262,0.9926584959030151,66
+151,en,policy,International Court of Justice Advisory,spaCy:xx_ent_wiki_sm,International Court of Justice,ORG,25,55,,63
+151,en,policy,International Court of Justice Advisory,spaCy:xx_ent_wiki_sm,Vanuatu,LOC,215,222,,63
+151,en,policy,International Court of Justice Advisory,HF:Davlan/xlm-roberta-base-wikiann-ner,International Court of Justice,ORG,25,55,0.9997548460960388,63
+151,en,policy,International Court of Justice Advisory,HF:Davlan/xlm-roberta-base-wikiann-ner,Vanuatu,LOC,215,222,0.9508561491966248,63
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,Climate Action Tracker,ORG,4,26,,61
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,Paris Agreement-compatible,ORG,123,149,,61
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,United States,LOC,275,288,,61
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,China,LOC,290,295,,61
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,Russia,LOC,297,303,,61
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,India,LOC,309,314,,61
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,G20,ORG,385,388,,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,Climate Action Tracker,ORG,4,26,0.9991119503974915,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,Paris Agreement,LOC,123,138,0.7202233672142029,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,United States,LOC,275,288,0.9998035430908203,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,China,LOC,290,295,0.9996671676635742,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,Russia,LOC,297,303,0.9993950128555298,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,India,LOC,309,314,0.9994884729385376,61
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,G,ORG,385,386,0.5260756015777588,61
+55,en,science,Global Carbon Project,spaCy:xx_ent_wiki_sm,The Global Carbon Project,MISC,0,25,,65
+55,en,science,Global Carbon Project,spaCy:xx_ent_wiki_sm,CO2,MISC,47,50,,65
+55,en,science,Global Carbon Project,spaCy:xx_ent_wiki_sm,India,LOC,281,286,,65
+55,en,science,Global Carbon Project,spaCy:xx_ent_wiki_sm,China,LOC,291,296,,65
+55,en,science,Global Carbon Project,spaCy:xx_ent_wiki_sm,European Union,ORG,375,389,,65
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,Global Carbon Project,ORG,4,25,0.9998285174369812,65
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,CO2 emissions,ORG,47,60,0.8424524664878845,65
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,and industry,ORG,79,91,0.6889351606369019,65
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,India,LOC,281,286,0.998670220375061,65
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,China,LOC,291,296,0.9990509152412415,65
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,European Union,ORG,375,389,0.7726767063140869,65
+57,en,science,British Antarctic Survey,spaCy:xx_ent_wiki_sm,British Antarctic Survey,ORG,4,28,,65
+57,en,science,British Antarctic Survey,spaCy:xx_ent_wiki_sm,Antarctic,LOC,60,69,,65
+57,en,science,British Antarctic Survey,spaCy:xx_ent_wiki_sm,Antarctic,MISC,314,323,,65
+57,en,science,British Antarctic Survey,HF:Davlan/xlm-roberta-base-wikiann-ner,British Antarctic Survey,ORG,4,28,0.9984597563743591,65
+57,en,science,British Antarctic Survey,HF:Davlan/xlm-roberta-base-wikiann-ner,Antarctic sea ice,LOC,60,77,0.9891589879989624,65
+57,en,science,British Antarctic Survey,HF:Davlan/xlm-roberta-base-wikiann-ner,Antarctic ice dynamic,LOC,314,335,0.9568517804145813,65
+57,en,science,British Antarctic Survey,HF:Davlan/xlm-roberta-base-wikiann-ner,heat transport,LOC,393,407,0.8800525665283203,65
+129,en,science,Earth's Future Journal,spaCy:xx_ent_wiki_sm,Middle East,ORG,61,72,,67
+129,en,science,Earth's Future Journal,spaCy:xx_ent_wiki_sm,Earth's Future,MISC,221,235,,67
+129,en,science,Earth's Future Journal,spaCy:xx_ent_wiki_sm,Eastern Mediterranean,MISC,281,302,,67
+129,en,science,Earth's Future Journal,HF:Davlan/xlm-roberta-base-wikiann-ner,Middle East,LOC,61,72,0.9988597631454468,67
+129,en,science,Earth's Future Journal,HF:Davlan/xlm-roberta-base-wikiann-ner,Earth's Future,ORG,221,235,0.9998864531517029,67
+129,en,science,Earth's Future Journal,HF:Davlan/xlm-roberta-base-wikiann-ner,Eastern Mediterranean,LOC,281,302,0.9991915225982666,67
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,Alfred Wegener Institute,ORG,20,44,,68
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,Nature Climate Change,MISC,67,88,,68
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,Antarctic,MISC,106,115,,68
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,Thwaites Glacier,LOC,192,208,,68
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,Doomsday Glacier,PER,224,240,,68
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,Complete,PER,358,366,,68
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,West Antarctic Ice Sheet,ORG,405,429,,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,Alfred Wegener Institute,ORG,20,44,0.9998325109481812,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,Nature Climate Change,ORG,67,88,0.9995179772377014,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,Antarctic,LOC,106,115,0.8041218519210815,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,i,ORG,116,117,0.45120808482170105,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,Thwaites Glacier,LOC,192,208,0.9983148574829102,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,Doomsday Glacier,LOC,224,240,0.9583683609962463,68
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,West Antarctic Ice Sheet,LOC,405,429,0.9959136843681335,68
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Red Sea,LOC,4,11,,70
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Science Advances,MISC,191,207,,70
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Gulf of Aqaba,LOC,233,246,,70
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Celsius,PER,286,293,,70
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Jordan,LOC,385,391,,70
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Saudi Arabia,LOC,396,408,,70
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,Red Sea,LOC,461,468,,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,Red Sea coral re,LOC,4,20,0.9323343634605408,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,Science Advances,ORG,191,207,0.9976310729980469,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,Gul,LOC,233,236,0.9940549731254578,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,f of Aqaba,LOC,236,246,0.9243671894073486,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,Jordan,LOC,385,391,0.9993201494216919,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,Saudi Arabia,LOC,396,408,0.9996479153633118,70
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,Red Sea,LOC,461,468,0.9551137685775757,70

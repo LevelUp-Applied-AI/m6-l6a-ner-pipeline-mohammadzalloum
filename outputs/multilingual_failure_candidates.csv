@@ -1,0 +1,45 @@
+﻿text_id,language,category,source,model,entity_text,entity_label,score,review_reason
+97,ar,impact,تقرير إسناد الطقس العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,دان,PER,0.6460248231887817,Low-confidence HF entity
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,أو,LOC,0.7463201880455017,Low-confidence HF entity; Very short entity span
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,ائر,LOC,0.5840453505516052,Low-confidence HF entity
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,جز,LOC,0.9981399774551392,Very short entity span
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,س,LOC,0.6845536828041077,Low-confidence HF entity; Very short entity span
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,يا,LOC,0.7023071646690369,Low-confidence HF entity; Very short entity span
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,المملكة الأردنية,LOC,0.6746382117271423,Low-confidence HF entity
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,التبريد الحضري,ORG,0.7160187363624573,Low-confidence HF entity
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,منطقة الحج المركزية,ORG,0.7379713654518127,Low-confidence HF entity
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,HF:Davlan/xlm-roberta-base-wikiann-ner,لاف,ORG,0.4793620705604553,Low-confidence HF entity
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,HF:Davlan/xlm-roberta-base-wikiann-ner,المملكة,LOC,0.6056123375892639,Low-confidence HF entity
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,ث,ORG,0.8657016158103943,Very short entity span
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,دولة,LOC,0.5232508182525635,Low-confidence HF entity
+178,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,درجة الحرارة,ORG,0.6644459366798401,Low-confidence HF entity
+79,ar,policy,ملخص تقرير الهيئة الحكومية الدولية,spaCy:xx_ent_wiki_sm,وأكد التقرير,PER,,Arabic spaCy candidate boundary/type issue
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,spaCy:xx_ent_wiki_sm,دول,ORG,,Arabic spaCy candidate boundary/type issue
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,spaCy:xx_ent_wiki_sm,وتهدف,MISC,,Arabic spaCy candidate boundary/type issue
+86,ar,science,مجلة نيتشر لتغير المناخ,spaCy:xx_ent_wiki_sm,وساهمت,PER,,Arabic spaCy candidate boundary/type issue
+95,ar,impact,جريدة الأردن تايمز,spaCy:xx_ent_wiki_sm,وأفادت دائرة,PER,,Arabic spaCy candidate boundary/type issue
+97,ar,impact,تقرير إسناد الطقس العالمي,spaCy:xx_ent_wiki_sm,وقُدرت,MISC,,Arabic spaCy candidate boundary/type issue
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,spaCy:xx_ent_wiki_sm,وتحمل,LOC,,Arabic spaCy candidate boundary/type issue
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,spaCy:xx_ent_wiki_sm,جديداً.,MISC,,Arabic spaCy candidate boundary/type issue
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,spaCy:xx_ent_wiki_sm,وتجاوزت درجات,PER,,Arabic spaCy candidate boundary/type issue
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,spaCy:xx_ent_wiki_sm,درجات مئوية,PER,,Arabic spaCy candidate boundary/type issue
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,spaCy:xx_ent_wiki_sm,ويستهدف,PER,,Arabic spaCy candidate boundary/type issue
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,spaCy:xx_ent_wiki_sm,أُطلق,MISC,,Arabic spaCy candidate boundary/type issue
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,spaCy:xx_ent_wiki_sm,ضعف,ORG,,Arabic spaCy candidate boundary/type issue
+135,ar,science,تقرير المناخ الإقليمي,spaCy:xx_ent_wiki_sm,درجات الحرارة,PER,,Arabic spaCy candidate boundary/type issue
+135,ar,science,تقرير المناخ الإقليمي,spaCy:xx_ent_wiki_sm,وتحذر الدراسات,PER,,Arabic spaCy candidate boundary/type issue
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,spaCy:xx_ent_wiki_sm,ونجحت,PER,,Arabic spaCy candidate boundary/type issue
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,spaCy:xx_ent_wiki_sm,كما,ORG,,Arabic spaCy candidate boundary/type issue
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,spaCy:xx_ent_wiki_sm,وأُعلن,MISC,,Arabic spaCy candidate boundary/type issue
+178,ar,science,تقرير حالة المناخ العالمي,spaCy:xx_ent_wiki_sm,وثّق,ORG,,Arabic spaCy candidate boundary/type issue
+178,ar,science,تقرير حالة المناخ العالمي,spaCy:xx_ent_wiki_sm,وسُجلت,MISC,,Arabic spaCy candidate boundary/type issue
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,I,LOC,0.8948749899864197,Very short entity span
+52,en,policy,UNEP Ozone Secretariat,HF:Davlan/xlm-roberta-base-wikiann-ner,UN,ORG,0.5932945609092712,Low-confidence HF entity; Very short entity span
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,and industry,ORG,0.6889351606369019,Low-confidence HF entity
+71,en,policy,UNEP Emissions Gap Report,HF:Davlan/xlm-roberta-base-wikiann-ner,UNEP,ORG,0.7044030427932739,Low-confidence HF entity
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,i,ORG,0.45120808482170105,Low-confidence HF entity; Very short entity span
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,Coral,LOC,0.4586136043071747,Low-confidence HF entity
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,shark and ray,LOC,0.6221325397491455,Low-confidence HF entity
+171,en,adaptation,AgriTech Climate Report,HF:Davlan/xlm-roberta-base-wikiann-ner,support,PER,0.5227399468421936,Low-confidence HF entity
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,G,ORG,0.5260756015777588,Low-confidence HF entity; Very short entity span
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,Paris Agreement,LOC,0.7202233672142029,Low-confidence HF entity
