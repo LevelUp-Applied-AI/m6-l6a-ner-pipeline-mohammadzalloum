@@ -1,0 +1,81 @@
+﻿text_id,language,category,source,model,text_length_words,entity_count,has_entities
+103,ar,adaptation,جريدة الأردن تايمز,spaCy:xx_ent_wiki_sm,44,0,False
+103,ar,adaptation,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,44,5,True
+111,ar,adaptation,خطة التكيف المناخي لسنغافورة,spaCy:xx_ent_wiki_sm,39,0,False
+111,ar,adaptation,خطة التكيف المناخي لسنغافورة,HF:Davlan/xlm-roberta-base-wikiann-ner,39,1,True
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,spaCy:xx_ent_wiki_sm,45,2,True
+114,ar,adaptation,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,45,4,True
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,spaCy:xx_ent_wiki_sm,51,1,True
+153,ar,adaptation,تقرير الجمعية الملكية لحماية الطبيعة,HF:Davlan/xlm-roberta-base-wikiann-ner,51,4,True
+163,ar,adaptation,تقرير الطاقة الإماراتي,spaCy:xx_ent_wiki_sm,49,0,False
+163,ar,adaptation,تقرير الطاقة الإماراتي,HF:Davlan/xlm-roberta-base-wikiann-ner,49,5,True
+94,ar,impact,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,spaCy:xx_ent_wiki_sm,51,0,False
+94,ar,impact,تقرير البيئة في منطقة الشرق الأوسط وشمال أفريقيا,HF:Davlan/xlm-roberta-base-wikiann-ner,51,2,True
+95,ar,impact,جريدة الأردن تايمز,spaCy:xx_ent_wiki_sm,51,1,True
+95,ar,impact,جريدة الأردن تايمز,HF:Davlan/xlm-roberta-base-wikiann-ner,51,1,True
+97,ar,impact,تقرير إسناد الطقس العالمي,spaCy:xx_ent_wiki_sm,43,1,True
+97,ar,impact,تقرير إسناد الطقس العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,43,2,True
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,spaCy:xx_ent_wiki_sm,49,1,True
+99,ar,impact,نشرة أبحاث المناخ الأفريقي,HF:Davlan/xlm-roberta-base-wikiann-ner,49,4,True
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,spaCy:xx_ent_wiki_sm,48,2,True
+102,ar,impact,مرصد مناخ البحر الأبيض المتوسط,HF:Davlan/xlm-roberta-base-wikiann-ner,48,10,True
+79,ar,policy,ملخص تقرير الهيئة الحكومية الدولية,spaCy:xx_ent_wiki_sm,56,1,True
+79,ar,policy,ملخص تقرير الهيئة الحكومية الدولية,HF:Davlan/xlm-roberta-base-wikiann-ner,56,1,True
+81,ar,policy,نشرة السياسات المناخية,spaCy:xx_ent_wiki_sm,48,0,False
+81,ar,policy,نشرة السياسات المناخية,HF:Davlan/xlm-roberta-base-wikiann-ner,48,2,True
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,spaCy:xx_ent_wiki_sm,44,2,True
+84,ar,policy,نشرة التنظيمات المناخية الأوروبية,HF:Davlan/xlm-roberta-base-wikiann-ner,44,3,True
+166,ar,policy,تقرير المنتدى العربي للبيئة والتنمية,spaCy:xx_ent_wiki_sm,43,0,False
+166,ar,policy,تقرير المنتدى العربي للبيئة والتنمية,HF:Davlan/xlm-roberta-base-wikiann-ner,43,4,True
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,spaCy:xx_ent_wiki_sm,46,2,True
+175,ar,policy,تقرير مؤتمر الرياض للمناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,46,3,True
+86,ar,science,مجلة نيتشر لتغير المناخ,spaCy:xx_ent_wiki_sm,51,1,True
+86,ar,science,مجلة نيتشر لتغير المناخ,HF:Davlan/xlm-roberta-base-wikiann-ner,51,5,True
+91,ar,science,تقرير حالة المناخ العالمي,spaCy:xx_ent_wiki_sm,47,0,False
+91,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,47,2,True
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,spaCy:xx_ent_wiki_sm,52,2,True
+116,ar,science,التقرير المناخي للإدارة الوطنية للمحيطات,HF:Davlan/xlm-roberta-base-wikiann-ner,52,4,True
+135,ar,science,تقرير المناخ الإقليمي,spaCy:xx_ent_wiki_sm,54,2,True
+135,ar,science,تقرير المناخ الإقليمي,HF:Davlan/xlm-roberta-base-wikiann-ner,54,4,True
+178,ar,science,تقرير حالة المناخ العالمي,spaCy:xx_ent_wiki_sm,46,2,True
+178,ar,science,تقرير حالة المناخ العالمي,HF:Davlan/xlm-roberta-base-wikiann-ner,46,4,True
+39,en,adaptation,European Adaptation Case Studies,spaCy:xx_ent_wiki_sm,60,5,True
+39,en,adaptation,European Adaptation Case Studies,HF:Davlan/xlm-roberta-base-wikiann-ner,60,7,True
+66,en,adaptation,UNEP Great Green Wall Report,spaCy:xx_ent_wiki_sm,64,7,True
+66,en,adaptation,UNEP Great Green Wall Report,HF:Davlan/xlm-roberta-base-wikiann-ner,64,5,True
+70,en,adaptation,MENA Environmental Report,spaCy:xx_ent_wiki_sm,55,5,True
+70,en,adaptation,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,55,5,True
+171,en,adaptation,AgriTech Climate Report,spaCy:xx_ent_wiki_sm,66,4,True
+171,en,adaptation,AgriTech Climate Report,HF:Davlan/xlm-roberta-base-wikiann-ner,66,3,True
+187,en,adaptation,India Solar Energy Report,spaCy:xx_ent_wiki_sm,62,5,True
+187,en,adaptation,India Solar Energy Report,HF:Davlan/xlm-roberta-base-wikiann-ner,62,4,True
+23,en,impact,MENA Environmental Report,spaCy:xx_ent_wiki_sm,64,5,True
+23,en,impact,MENA Environmental Report,HF:Davlan/xlm-roberta-base-wikiann-ner,64,4,True
+31,en,impact,National Hurricane Center,spaCy:xx_ent_wiki_sm,62,6,True
+31,en,impact,National Hurricane Center,HF:Davlan/xlm-roberta-base-wikiann-ner,62,6,True
+32,en,impact,World Food Programme Bulletin,spaCy:xx_ent_wiki_sm,61,7,True
+32,en,impact,World Food Programme Bulletin,HF:Davlan/xlm-roberta-base-wikiann-ner,61,7,True
+157,en,impact,Global Biodiversity Monitor,spaCy:xx_ent_wiki_sm,63,3,True
+157,en,impact,Global Biodiversity Monitor,HF:Davlan/xlm-roberta-base-wikiann-ner,63,4,True
+177,en,impact,ILO Heat Stress Report,spaCy:xx_ent_wiki_sm,67,6,True
+177,en,impact,ILO Heat Stress Report,HF:Davlan/xlm-roberta-base-wikiann-ner,67,6,True
+9,en,policy,Green Climate Fund Dispatch,spaCy:xx_ent_wiki_sm,61,6,True
+9,en,policy,Green Climate Fund Dispatch,HF:Davlan/xlm-roberta-base-wikiann-ner,61,6,True
+52,en,policy,UNEP Ozone Secretariat,spaCy:xx_ent_wiki_sm,59,7,True
+52,en,policy,UNEP Ozone Secretariat,HF:Davlan/xlm-roberta-base-wikiann-ner,59,3,True
+71,en,policy,UNEP Emissions Gap Report,spaCy:xx_ent_wiki_sm,66,5,True
+71,en,policy,UNEP Emissions Gap Report,HF:Davlan/xlm-roberta-base-wikiann-ner,66,3,True
+151,en,policy,International Court of Justice Advisory,spaCy:xx_ent_wiki_sm,63,2,True
+151,en,policy,International Court of Justice Advisory,HF:Davlan/xlm-roberta-base-wikiann-ner,63,2,True
+189,en,policy,Climate Action Tracker,spaCy:xx_ent_wiki_sm,61,7,True
+189,en,policy,Climate Action Tracker,HF:Davlan/xlm-roberta-base-wikiann-ner,61,7,True
+55,en,science,Global Carbon Project,spaCy:xx_ent_wiki_sm,65,5,True
+55,en,science,Global Carbon Project,HF:Davlan/xlm-roberta-base-wikiann-ner,65,6,True
+57,en,science,British Antarctic Survey,spaCy:xx_ent_wiki_sm,65,3,True
+57,en,science,British Antarctic Survey,HF:Davlan/xlm-roberta-base-wikiann-ner,65,4,True
+129,en,science,Earth's Future Journal,spaCy:xx_ent_wiki_sm,67,3,True
+129,en,science,Earth's Future Journal,HF:Davlan/xlm-roberta-base-wikiann-ner,67,3,True
+138,en,science,Nature Climate Change,spaCy:xx_ent_wiki_sm,68,7,True
+138,en,science,Nature Climate Change,HF:Davlan/xlm-roberta-base-wikiann-ner,68,7,True
+144,en,science,Science Advances,spaCy:xx_ent_wiki_sm,70,7,True
+144,en,science,Science Advances,HF:Davlan/xlm-roberta-base-wikiann-ner,70,7,True
