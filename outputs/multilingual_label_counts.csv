@@ -1,0 +1,15 @@
+﻿language,model,entity_label,count
+ar,HF:Davlan/xlm-roberta-base-wikiann-ner,LOC,38
+ar,HF:Davlan/xlm-roberta-base-wikiann-ner,ORG,31
+ar,HF:Davlan/xlm-roberta-base-wikiann-ner,PER,1
+ar,spaCy:xx_ent_wiki_sm,PER,9
+ar,spaCy:xx_ent_wiki_sm,MISC,6
+ar,spaCy:xx_ent_wiki_sm,ORG,4
+ar,spaCy:xx_ent_wiki_sm,LOC,1
+en,HF:Davlan/xlm-roberta-base-wikiann-ner,LOC,64
+en,HF:Davlan/xlm-roberta-base-wikiann-ner,ORG,34
+en,HF:Davlan/xlm-roberta-base-wikiann-ner,PER,1
+en,spaCy:xx_ent_wiki_sm,LOC,55
+en,spaCy:xx_ent_wiki_sm,MISC,21
+en,spaCy:xx_ent_wiki_sm,ORG,20
+en,spaCy:xx_ent_wiki_sm,PER,9
