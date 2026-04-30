@@ -9,6 +9,13 @@ Task 1:
   20 English texts + 20 Arabic texts
   using 5 texts per category per language.
 
+Task 2:
+- Load multilingual NER models:
+  spaCy: xx_ent_wiki_sm
+  Hugging Face: Davlan/xlm-roberta-base-wikiann-ner
+- Run a small smoke test on one English text and one Arabic text.
+- Save smoke-test entity examples.
+
 Run:
     python stretch_multilingual_ner.py
 """
@@ -16,11 +23,14 @@ Run:
 from pathlib import Path
 
 import pandas as pd
+import spacy
+from transformers import pipeline as hf_pipeline
 
 
 DATA_PATH = Path("data/climate_articles.csv")
 OUTPUT_DIR = Path("outputs")
 SAMPLE_OUTPUT_PATH = OUTPUT_DIR / "stretch_multilingual_sample.csv"
+SMOKE_TEST_OUTPUT_PATH = OUTPUT_DIR / "multilingual_model_smoke_test.csv"
 
 REQUIRED_COLUMNS = {"id", "text", "source", "language", "category"}
 
@@ -29,6 +39,9 @@ CATEGORIES = ["adaptation", "impact", "policy", "science"]
 
 N_PER_LANGUAGE_CATEGORY = 5
 RANDOM_STATE = 42
+
+SPACY_MULTILINGUAL_MODEL = "xx_ent_wiki_sm"
+HF_MULTILINGUAL_MODEL = "Davlan/xlm-roberta-base-wikiann-ner"
 
 
 def load_data(data_path=DATA_PATH):
@@ -62,6 +75,7 @@ def summarize_dataset(df):
     """Print useful dataset-level statistics."""
     print("\n=== Dataset Summary ===")
     print(f"Shape: {df.shape}")
+
     print("\nLanguages:")
     print(df["language"].value_counts())
 
@@ -140,6 +154,226 @@ def summarize_sample(sample_df):
     print(sample_df[preview_cols].to_string(index=False))
 
 
+# ============================================================
+# Task 2: Load and test multilingual NER models
+# ============================================================
+
+def load_spacy_multilingual_model(model_name=SPACY_MULTILINGUAL_MODEL):
+    """
+    Load spaCy multilingual NER model.
+
+    This model emits a smaller label set than en_core_web_sm:
+    usually PER, LOC, ORG, and MISC.
+    """
+    try:
+        nlp = spacy.load(model_name)
+    except OSError as exc:
+        raise OSError(
+            f"Could not load spaCy model '{model_name}'.\n"
+            f"Install it with:\n"
+            f"    python -m spacy download {model_name}"
+        ) from exc
+
+    return nlp
+
+
+def load_hf_multilingual_model(model_name=HF_MULTILINGUAL_MODEL):
+    """
+    Load Hugging Face multilingual NER pipeline.
+
+    aggregation_strategy='simple' combines subword pieces into cleaner
+    entity spans where possible.
+    """
+    try:
+        ner_pipeline = hf_pipeline(
+            task="ner",
+            model=model_name,
+            tokenizer=model_name,
+            aggregation_strategy="simple",
+        )
+    except Exception as exc:
+        raise RuntimeError(
+            f"Could not load Hugging Face model '{model_name}'.\n"
+            "Check your internet connection the first time you download it, "
+            "and make sure transformers and torch are installed."
+        ) from exc
+
+    return ner_pipeline
+
+
+def extract_spacy_entities_from_text(text, text_id, language, model_name, nlp):
+    """Run spaCy multilingual NER on one text and return entity rows."""
+    rows = []
+
+    doc = nlp("" if pd.isna(text) else str(text))
+
+    for ent in doc.ents:
+        rows.append({
+            "text_id": text_id,
+            "language": language,
+            "model": model_name,
+            "entity_text": ent.text,
+            "entity_label": ent.label_,
+            "start_char": ent.start_char,
+            "end_char": ent.end_char,
+            "score": None,
+        })
+
+    return rows
+
+
+def extract_hf_entities_from_text(text, text_id, language, model_name, ner_pipeline):
+    """Run Hugging Face multilingual NER on one text and return entity rows."""
+    rows = []
+
+    text = "" if pd.isna(text) else str(text)
+
+    entities = ner_pipeline(text)
+
+    for ent in entities:
+        entity_text = ent.get("word", "")
+        entity_label = ent.get("entity_group", ent.get("entity", ""))
+        start_char = ent.get("start")
+        end_char = ent.get("end")
+        score = ent.get("score")
+
+        rows.append({
+            "text_id": text_id,
+            "language": language,
+            "model": model_name,
+            "entity_text": entity_text,
+            "entity_label": entity_label,
+            "start_char": start_char,
+            "end_char": end_char,
+            "score": float(score) if score is not None else None,
+        })
+
+    return rows
+
+
+def pick_smoke_test_texts(sample_df):
+    """
+    Pick one English and one Arabic text from the balanced sample.
+
+    We choose policy if available because policy texts usually contain
+    organizations, agreements, countries, dates, and climate events.
+    """
+    selected_rows = []
+
+    for language in LANGUAGES:
+        language_df = sample_df[sample_df["language"] == language].copy()
+
+        policy_df = language_df[language_df["category"] == "policy"].copy()
+
+        if not policy_df.empty:
+            selected_rows.append(policy_df.iloc[0])
+        else:
+            selected_rows.append(language_df.iloc[0])
+
+    return pd.DataFrame(selected_rows)
+
+
+def run_model_smoke_test(sample_df, spacy_nlp, hf_ner):
+    """
+    Run both multilingual models on one English and one Arabic sample text.
+
+    This verifies that both models can process both languages before we run
+    the full comparison in later tasks.
+    """
+    test_df = pick_smoke_test_texts(sample_df)
+
+    all_rows = []
+
+    for _, row in test_df.iterrows():
+        text_id = row["id"]
+        language = row["language"]
+        text = row["text"]
+
+        all_rows.extend(
+            extract_spacy_entities_from_text(
+                text=text,
+                text_id=text_id,
+                language=language,
+                model_name=f"spaCy:{SPACY_MULTILINGUAL_MODEL}",
+                nlp=spacy_nlp,
+            )
+        )
+
+        all_rows.extend(
+            extract_hf_entities_from_text(
+                text=text,
+                text_id=text_id,
+                language=language,
+                model_name=f"HF:{HF_MULTILINGUAL_MODEL}",
+                ner_pipeline=hf_ner,
+            )
+        )
+
+    columns = [
+        "text_id",
+        "language",
+        "model",
+        "entity_text",
+        "entity_label",
+        "start_char",
+        "end_char",
+        "score",
+    ]
+
+    smoke_df = pd.DataFrame(all_rows, columns=columns)
+
+    return smoke_df, test_df
+
+
+def save_smoke_test_results(smoke_df, output_path=SMOKE_TEST_OUTPUT_PATH):
+    """Save smoke test entities to CSV."""
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    smoke_df.to_csv(output_path, index=False, encoding="utf-8-sig")
+    print(f"\nSaved multilingual model smoke test to: {output_path}")
+
+
+def print_smoke_test_results(smoke_df, test_df):
+    """Print readable smoke test summary."""
+    print("\n=== Task 2: Multilingual Model Smoke Test ===")
+
+    print("\nTexts used for smoke test:")
+    print(test_df[["id", "language", "category", "source"]].to_string(index=False))
+
+    if smoke_df.empty:
+        print("\nNo entities found by either model in the smoke test texts.")
+        return
+
+    print("\nEntities found:")
+    display_cols = [
+        "text_id",
+        "language",
+        "model",
+        "entity_text",
+        "entity_label",
+        "score",
+    ]
+
+    print(smoke_df[display_cols].to_string(index=False))
+
+    print("\nEntity counts by language and model:")
+    print(
+        smoke_df
+        .groupby(["language", "model"])
+        .size()
+        .reset_index(name="entity_count")
+        .to_string(index=False)
+    )
+
+    print("\nEntity counts by label:")
+    print(
+        smoke_df
+        .groupby(["language", "model", "entity_label"])
+        .size()
+        .reset_index(name="count")
+        .to_string(index=False)
+    )
+
+
 def main():
     df = load_data()
     validate_data(df)
@@ -149,6 +383,17 @@ def main():
     sample_df = build_balanced_sample(df)
     summarize_sample(sample_df)
     save_sample(sample_df)
+
+    print("\n=== Loading multilingual models ===")
+    spacy_nlp = load_spacy_multilingual_model()
+    print(f"Loaded spaCy model: {SPACY_MULTILINGUAL_MODEL}")
+
+    hf_ner = load_hf_multilingual_model()
+    print(f"Loaded Hugging Face model: {HF_MULTILINGUAL_MODEL}")
+
+    smoke_df, test_df = run_model_smoke_test(sample_df, spacy_nlp, hf_ner)
+    print_smoke_test_results(smoke_df, test_df)
+    save_smoke_test_results(smoke_df)
 
 
 if __name__ == "__main__":
