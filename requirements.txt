@@ -3,3 +3,6 @@ transformers>=4.30
 pandas
 numpy
 pytest
+transformers
+torch
+matplotlib
