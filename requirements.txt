@@ -4,4 +4,4 @@ pandas
 numpy
 pytest
 matplotlib
-sklearn
+scikit-learn
