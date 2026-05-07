@@ -1,0 +1,4 @@
+group,count,mean_similarity,min_similarity,max_similarity
+English-English,45,0.7224,0.5938,0.861
+Arabic-Arabic,45,0.8056,0.7278,0.9397
+English-Arabic,100,0.6072,0.4877,0.7595
